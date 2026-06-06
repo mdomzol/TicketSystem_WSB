@@ -1,15 +1,12 @@
-﻿using TicketSystem.Models;
+﻿using TicketSystem.DataSeeder;
 using TicketSystem.Repositories;
 using TicketSystem.Services;
+using TicketSystem.ConsoleUI;
 
 var repository = new InMemoryTicketRepository();
 var service = new TicketService(repository);
 
-var ticket = new BugTicket("Blad logowania", "Uzytkownik nie moze się zalogowac.");
+FakeDataSeeder.Seed(service);
 
-service.CreateTicket(ticket);
-
-foreach(var t in service.GetAllTickets())
-{
-    Console.WriteLine($"{t.Id} | {t.Title} | {t.Status}");
-}
+var menu = new MenuService(service);
+menu.Start();
