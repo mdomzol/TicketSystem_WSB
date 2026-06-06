@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TicketSystem.Enums;
 
-namespace TicketSystem.Models
+namespace TicketSystem.Models;
+
+public sealed class TechnicalTicket : Ticket
 {
-    internal class TechnicalTicket
+    public TechnicalTicket(string title, string description) : base(title, description)
     {
+    }
+    public override int GetEstimatedResolutionTime()
+    {
+        return 16;
     }
 }

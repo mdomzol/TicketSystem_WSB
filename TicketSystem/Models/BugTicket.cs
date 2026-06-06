@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TicketSystem.Enums;
+    
+namespace TicketSystem.Models;
 
-namespace TicketSystem.Models
-{
-    internal class BugTicket
+public sealed class BugTicket : Ticket
+{ 
+    public BugTicket(string title, string description) : base(title, description)
     {
+        Priority = TicketPriority.High;
+    }
+
+    public override int GetEstimatedResolutionTime()
+    {
+        return 8;
     }
 }

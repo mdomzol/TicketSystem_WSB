@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics.Contracts;
+using TicketSystem.Enums;
 
-namespace TicketSystem.Models
+namespace TicketSystem.Models;
+
+public sealed class FeatureRequestTicket : Ticket
 {
-    internal class FeatureRequestTicket
+    public FeatureRequestTicket(string title, string description) : base(title, description)
     {
+    }
+
+    public override int GetEstimatedResolutionTime()
+    {
+        return 40;
     }
 }
