@@ -1,12 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TicketSystem.Interfaces;
+using TicketSystem.Models;
 
-namespace TicketSystem.Repositories
+namespace TicketSystem.Repositories;
+
+public class InMemoryTicketRepository : ITicketRepository
 {
-    internal class InMemoryTicketRepository
+    private readonly List<Ticket> _tickets = [];
+
+    public void Add(Ticket ticket)
     {
+        _tickets.Add(ticket);
+    }
+
+    public Ticket? GetById(Guid id)
+    {
+        return _tickets.FirstOrDefault(t => t.Id == id);
+    }
+
+    public IEnumerable<Ticket> GetAll()
+    {
+        return _tickets;
+    }
+
+    public void Remove(Guid id)
+    {
+        var ticket = GetById(id);
+
+        if(ticket != null)
+        {
+            _tickets.Remove(ticket);
+        }
     }
 }
