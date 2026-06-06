@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace TicketSystem.Enums;
 
-namespace TicketSystem.Enums
+public enum TicketStatus
 {
-    internal class TicketStatus
-    {
-    }
+    Open,
+    InProgress,
+    Resolved,
+    Closed,
+    Reopened
 }

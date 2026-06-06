@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\exceptions\\ticketexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\exceptions\\ticketexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\repositories\\inmemoryticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\repositories\\inmemoryticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\models\\technicalticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\models\\technicalticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\models\\featurerequestticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\models\\featurerequestticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\models\\bugticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\models\\bugticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\ticketsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\ticketsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|c:\\git\\ticketsystem_wsb\\ticketsystem\\ticketsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B050B53-3251-4E5D-BDBB-5E07FB4A3298}|TicketSystem\\TicketSystem.csproj|solutionrelative:ticketsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,15 +62,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketException.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Exceptions\\TicketException.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Exceptions\\TicketException.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Exceptions\\TicketException.cs",
+              "RelativeToolTip": "TicketSystem\\Exceptions\\TicketException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:36:13.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketPriority.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Enums\\TicketPriority.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Enums\\TicketPriority.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Enums\\TicketPriority.cs",
+              "RelativeToolTip": "TicketSystem\\Enums\\TicketPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:34:24.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Enums\\TicketStatus.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "TicketSystem\\Enums\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:34:14.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InMemoryTicketRepository.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Repositories\\InMemoryTicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Repositories\\InMemoryTicketRepository.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Repositories\\InMemoryTicketRepository.cs",
+              "RelativeToolTip": "TicketSystem\\Repositories\\InMemoryTicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:33:15.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Services\\TicketService.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Services\\TicketService.cs",
+              "RelativeToolTip": "TicketSystem\\Services\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:32:59.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Interfaces\\ITicketService.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Interfaces\\ITicketService.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "TicketSystem\\Interfaces\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:32:47.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "TicketSystem\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:32:38.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TechnicalTicket.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\TechnicalTicket.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Models\\TechnicalTicket.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\TechnicalTicket.cs",
+              "RelativeToolTip": "TicketSystem\\Models\\TechnicalTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:31:58.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FeatureRequestTicket.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\FeatureRequestTicket.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Models\\FeatureRequestTicket.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\FeatureRequestTicket.cs",
+              "RelativeToolTip": "TicketSystem\\Models\\FeatureRequestTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:31:46.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BugTicket.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\BugTicket.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Models\\BugTicket.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\BugTicket.cs",
+              "RelativeToolTip": "TicketSystem\\Models\\BugTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:31:31.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "TicketSystem\\Models\\Ticket.cs",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Models\\Ticket.cs",
+              "RelativeToolTip": "TicketSystem\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:31:21.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TicketSystem",
+              "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\TicketSystem.csproj",
+              "RelativeDocumentMoniker": "TicketSystem\\TicketSystem.csproj",
+              "ToolTip": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\TicketSystem.csproj",
+              "RelativeToolTip": "TicketSystem\\TicketSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-06T09:30:05.214Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GIT\\TicketSystem_WSB\\TicketSystem\\TicketSystem\\Program.cs",
               "RelativeDocumentMoniker": "TicketSystem\\Program.cs",

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TicketSystem.Enums
+﻿namespace TicketSystem.Enums
 {
-    internal class TicketPriority
+    public enum TicketPriority
     {
+        Low,
+        Medium,
+        High,
+        Emergency
     }
 }
