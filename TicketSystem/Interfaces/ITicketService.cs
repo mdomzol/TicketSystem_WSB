@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TicketSystem.Models;
 
-namespace TicketSystem.Interfaces
+namespace TicketSystem.Interfaces;
+
+public interface ITicketService
 {
-    internal interface ITicketService
-    {
-    }
+    void CreateTicket(Ticket ticket);
+    void AssignTicket(Guid ticketId, string assignee);
+    void CloseTicket(Guid ticketId);
+    IEnumerable<Ticket> GetAllTickets();
 }
