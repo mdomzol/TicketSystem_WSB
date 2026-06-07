@@ -1,0 +1,122 @@
+\chapter{Ticket System – Projekt z Programowania Obiektowego }
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{Ticket System – Projekt z Programowania Obiektowego@{Ticket System – Projekt z Programowania Obiektowego}}
+\label{md__r_e_a_d_m_e_autotoc_md0}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md0}%
+\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{\texorpdfstring{Opis projektu}{Opis projektu}}\label{md__r_e_a_d_m_e_autotoc_md1}
+Ticket System to konsolowa aplikacja napisana w języku C\#, której celem jest symulacja prostego systemu obsługi zgłoszeń (helpdesk /\+ service desk).
+
+Projekt został przygotowany w ramach zajęć z Programowania Obiektowego i demonstruje praktyczne zastosowanie podstawowych zasad OOP, takich jak:\+
+
+
+\begin{DoxyItemize}
+\item enkapsulacja,
+\item dziedziczenie,
+\item polimorfizm,
+\item abstrakcja,
+\item separacja odpowiedzialności (SRP).
+\end{DoxyItemize}
+
+Aplikacja umożliwia tworzenie oraz obsługę zgłoszeń technicznych w podziale na różne typy problemów oraz ich późniejsze przetwarzanie przez panel administracyjny.
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md3}{}\doxysection{\texorpdfstring{Główne funkcjonalności}{Główne funkcjonalności}}\label{md__r_e_a_d_m_e_autotoc_md3}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md4}{}\doxysubsection{\texorpdfstring{Panel klienta}{Panel klienta}}\label{md__r_e_a_d_m_e_autotoc_md4}
+
+\begin{DoxyItemize}
+\item tworzenie zgłoszeń typu:\+
+\begin{DoxyItemize}
+\item Bug
+\item Feature Request
+\item Technical Issue
+\end{DoxyItemize}
+\item wprowadzanie tytułu i opisu zgłoszenia
+\item automatyczne przypisanie statusu „\+Open”
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md5}{}\doxysubsection{\texorpdfstring{Panel administratora}{Panel administratora}}\label{md__r_e_a_d_m_e_autotoc_md5}
+
+\begin{DoxyItemize}
+\item przegląd wszystkich zgłoszeń w formie tabeli
+\item podgląd szczegółów zgłoszenia
+\item zmiana statusu zgłoszenia z komentarzem
+\item przegląd historii zmian
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md7}{}\doxysection{\texorpdfstring{Struktura projektu}{Struktura projektu}}\label{md__r_e_a_d_m_e_autotoc_md7}
+Projekt został podzielony na warstwy:\+\hypertarget{md__r_e_a_d_m_e_autotoc_md8}{}\doxysubsection{\texorpdfstring{Models}{Models}}\label{md__r_e_a_d_m_e_autotoc_md8}
+Zawiera definicje encji domenowych:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily Ticket} (klasa abstrakcyjna)
+\item klasy dziedziczące:\+
+\begin{DoxyItemize}
+\item {\ttfamily Bug\+Ticket}
+\item {\ttfamily Feature\+Request\+Ticket}
+\item {\ttfamily Technical\+Ticket}
+\end{DoxyItemize}
+\item {\ttfamily Ticket\+History\+Entry}
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md9}{}\doxysubsection{\texorpdfstring{Services}{Services}}\label{md__r_e_a_d_m_e_autotoc_md9}
+Warstwa logiki biznesowej:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily Ticket\+Service} – obsługa operacji na zgłoszeniach
+\item zarządzanie zmianą statusów i tworzeniem zgłoszeń
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md10}{}\doxysubsection{\texorpdfstring{Repository}{Repository}}\label{md__r_e_a_d_m_e_autotoc_md10}
+Warstwa przechowywania danych:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily ITicket\+Repository}
+\item implementacja pamięciowa (in-\/memory storage)
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md11}{}\doxysubsection{\texorpdfstring{Console\+UI}{Console\+UI}}\label{md__r_e_a_d_m_e_autotoc_md11}
+Warstwa interfejsu użytkownika:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily Admin\+Panel}
+\item {\ttfamily Client\+Panel}
+\item {\ttfamily Console\+Helper}
+\item {\ttfamily Input\+Helper}
+\item {\ttfamily Console\+Messages}
+\end{DoxyItemize}
+
+Odpowiada za komunikację z użytkownikiem oraz prezentację danych.
+
+\DoxyHorRuler{0}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md13}{}\doxysection{\texorpdfstring{Zastosowane mechanizmy OOP}{Zastosowane mechanizmy OOP}}\label{md__r_e_a_d_m_e_autotoc_md13}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md14}{}\doxysubsection{\texorpdfstring{Abstrakcja}{Abstrakcja}}\label{md__r_e_a_d_m_e_autotoc_md14}
+Klasa {\ttfamily Ticket} stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.\hypertarget{md__r_e_a_d_m_e_autotoc_md15}{}\doxysubsection{\texorpdfstring{Dziedziczenie}{Dziedziczenie}}\label{md__r_e_a_d_m_e_autotoc_md15}
+Typy zgłoszeń:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily Bug\+Ticket}
+\item {\ttfamily Feature\+Request\+Ticket}
+\item {\ttfamily Technical\+Ticket}
+\end{DoxyItemize}
+
+dziedziczą po klasie bazowej {\ttfamily Ticket}.\hypertarget{md__r_e_a_d_m_e_autotoc_md16}{}\doxysubsection{\texorpdfstring{Polimorfizm}{Polimorfizm}}\label{md__r_e_a_d_m_e_autotoc_md16}
+Metoda:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GetEstimatedResolutionTime()}
+
+\end{DoxyCode}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md17}{}\doxysection{\texorpdfstring{Autorzy}{Autorzy}}\label{md__r_e_a_d_m_e_autotoc_md17}
+
+\begin{DoxyItemize}
+\item Michał Domżoł
+\item Bartłomiej Baumert
+\item Kamil Dosa
+\item Tomasz Barnaś
+\item Michał Kuśmierek
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md18}{}\doxysection{\texorpdfstring{Prowadzący}{Prowadzący}}\label{md__r_e_a_d_m_e_autotoc_md18}
+mgr inż. Arkadiusz Banasik\hypertarget{md__r_e_a_d_m_e_autotoc_md19}{}\doxysection{\texorpdfstring{Semestr}{Semestr}}\label{md__r_e_a_d_m_e_autotoc_md19}
+Semestr letni 2025/\+2026\hypertarget{md__r_e_a_d_m_e_autotoc_md20}{}\doxysection{\texorpdfstring{Informacje}{Informacje}}\label{md__r_e_a_d_m_e_autotoc_md20}
+Projekt wykonany w ramach przedmiotu {\bfseries{Programowanie Obiektowe}}.
+
+WSB Merito.
+
+Celem projektu było zaprojektowanie i implementacja konsolowego systemu obsługi zgłoszeń (Ticket System) z wykorzystaniem podstawowych mechanizmów programowania obiektowego, takich jak dziedziczenie, polimorfizm, abstrakcja oraz enkapsulacja. 

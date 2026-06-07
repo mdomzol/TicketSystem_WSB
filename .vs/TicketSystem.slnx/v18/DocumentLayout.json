@@ -38,8 +38,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,7 +52,7 @@
               "RelativeDocumentMoniker": "TicketSystem\\Services\\TicketService.cs",
               "ToolTip": "E:\\Git\\TicketSystem_WSB\\TicketSystem\\Services\\TicketService.cs",
               "RelativeToolTip": "TicketSystem\\Services\\TicketService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T19:37:20.206Z",
               "EditorCaption": ""
@@ -63,8 +67,7 @@
               "RelativeToolTip": "TicketSystem\\ConsoleUI\\Helpers\\TicketConsolePrinter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:37:12.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:37:12.412Z"
             },
             {
               "$type": "Document",
@@ -76,8 +79,7 @@
               "RelativeToolTip": "TicketSystem\\Models\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:27:36.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:27:36.89Z"
             },
             {
               "$type": "Document",
@@ -89,8 +91,7 @@
               "RelativeToolTip": "TicketSystem\\Models\\TicketHistoryEntry.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:27:34.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:27:34.537Z"
             },
             {
               "$type": "Document",
@@ -102,8 +103,7 @@
               "RelativeToolTip": "TicketSystem\\Repositories\\InMemoryTicketRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:27:32.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:27:32.944Z"
             },
             {
               "$type": "Document",
@@ -115,8 +115,7 @@
               "RelativeToolTip": "TicketSystem\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:27:27.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:27:27.801Z"
             },
             {
               "$type": "Document",
@@ -128,12 +127,7 @@
               "RelativeToolTip": "TicketSystem\\ConsoleUI\\Helpers\\InputHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:08:02.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2026-06-07T19:08:02.87Z"
             }
           ]
         }

@@ -1,0 +1,132 @@
+\doxysection{Ticket\+System.\+Models.\+Ticket Class Reference}
+\hypertarget{class_ticket_system_1_1_models_1_1_ticket}{}\label{class_ticket_system_1_1_models_1_1_ticket}\index{TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}}
+
+
+Abstrakcyjna klasa bazowa reprezentująca zgłoszenie (\doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}) w systemie.  
+
+
+Inheritance diagram for Ticket\+System.\+Models.\+Ticket:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.419518cm]{class_ticket_system_1_1_models_1_1_ticket}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_ac900f332fd12fe79cf5bb0aa1397e465}{Change\+Status}} (\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a0a871bbeda39632bb0fd8c284c003f56}{Ticket\+Status}} new\+Status, string comment, string performed\+By="{}Admin"{})
+\begin{DoxyCompactList}\small\item\em Zmienia status zgłoszenia i zapisuje tę operację w historii. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_a4b0a03ad2012b67c39f387d8883c734e}{Get\+Estimated\+Resolution\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca szacowany czas realizacji zgłoszenia. Implementacja zależy od konkretnego typu zgłoszenia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_a30d46eeed8dfcb2c8b7de4c7958f405c}{Ticket}} (string title, string description)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy bazowej \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}. Inicjalizuje podstawowe dane zgłoszenia oraz zapisuje wpis w historii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a7efac31c4b53f432d061a63d3d789500}\label{class_ticket_system_1_1_models_1_1_ticket_a7efac31c4b53f432d061a63d3d789500} 
+Guid {\bfseries Id}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Unikalny identyfikator zgłoszenia (GUID). \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a4679e2f1db7ca40080f8238dd51ac802}\label{class_ticket_system_1_1_models_1_1_ticket_a4679e2f1db7ca40080f8238dd51ac802} 
+int {\bfseries Number}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Czytelny numer zgłoszenia używany w interfejsie użytkownika. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_ac90ea45209e9f0a95e9189f7cea3d8ce}\label{class_ticket_system_1_1_models_1_1_ticket_ac90ea45209e9f0a95e9189f7cea3d8ce} 
+string {\bfseries Title}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Tytuł zgłoszenia. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_abde3780b9d302d1987ee3839c95bcd4b}\label{class_ticket_system_1_1_models_1_1_ticket_abde3780b9d302d1987ee3839c95bcd4b} 
+string {\bfseries Description}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Szczegółowy opis zgłoszenia. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a4e9e64bd931c298f0c7cc01355a4a290}\label{class_ticket_system_1_1_models_1_1_ticket_a4e9e64bd931c298f0c7cc01355a4a290} 
+\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a0a871bbeda39632bb0fd8c284c003f56}{Ticket\+Status}} {\bfseries Status}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Aktualny status zgłoszenia. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a8aa8aced3aba86b56c0b035f2d1d5b1c}\label{class_ticket_system_1_1_models_1_1_ticket_a8aa8aced3aba86b56c0b035f2d1d5b1c} 
+\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a2477325d63c91daed873023f7ebd7179}{Ticket\+Priority}} {\bfseries Priority}\hspace{0.3cm}{\ttfamily  \+[get, protected set]\+}
+\begin{DoxyCompactList}\small\item\em Priorytet zgłoszenia (ustalany przez klasy pochodne). \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a17510d8580e6565e8bb3440caec0ee79}\label{class_ticket_system_1_1_models_1_1_ticket_a17510d8580e6565e8bb3440caec0ee79} 
+Date\+Time {\bfseries Created\+At}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Data utworzenia zgłoszenia. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a0b597e4501358317ff4a816fb48ca0d9}\label{class_ticket_system_1_1_models_1_1_ticket_a0b597e4501358317ff4a816fb48ca0d9} 
+string {\bfseries Last\+Action\+By} = "{}System"{}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Informacja o ostatniej wykonanej akcji na zgłoszeniu. \end{DoxyCompactList}\item 
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a1e4ddc030edfab04fe7dba007a4d6917}\label{class_ticket_system_1_1_models_1_1_ticket_a1e4ddc030edfab04fe7dba007a4d6917} 
+List$<$ \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_history_entry}{Ticket\+History\+Entry}} $>$ {\bfseries History} = \+[$\,$]\+\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Historia zmian i zdarzeń związanych ze zgłoszeniem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstrakcyjna klasa bazowa reprezentująca zgłoszenie (\doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}) w systemie. 
+
+Klasa definiuje wspólne właściwości i zachowania wszystkich typów zgłoszeń. Stanowi podstawę dla klas dziedziczących takich jak \doxylink{class_ticket_system_1_1_models_1_1_bug_ticket}{Bug\+Ticket}, \doxylink{class_ticket_system_1_1_models_1_1_feature_request_ticket}{Feature\+Request\+Ticket} czy \doxylink{class_ticket_system_1_1_models_1_1_technical_ticket}{Technical\+Ticket}.
+
+Zawiera mechanizmy:\+
+\begin{DoxyItemize}
+\item zarządzania statusem zgłoszenia,
+\item historii zmian,
+\item identyfikacji zgłoszeń (GUID + numer),
+\item śledzenia ostatniej akcji. 
+\end{DoxyItemize}
+
+\label{class_ticket_system_1_1_models_1_1_ticket_doc-constructors}
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a30d46eeed8dfcb2c8b7de4c7958f405c}\index{TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}!Ticket@{Ticket}}
+\index{Ticket@{Ticket}!TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}}
+\doxysubsubsection{\texorpdfstring{Ticket()}{Ticket()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_models_1_1_ticket_a30d46eeed8dfcb2c8b7de4c7958f405c} 
+Ticket\+System.\+Models.\+Ticket.\+Ticket (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{description}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Konstruktor klasy bazowej \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}. Inicjalizuje podstawowe dane zgłoszenia oraz zapisuje wpis w historii. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Tytuł zgłoszenia.\\
+\hline
+{\em description} & Opis zgłoszenia.\\
+\hline
+\end{DoxyParams}
+
+
+\label{class_ticket_system_1_1_models_1_1_ticket_doc-func-members}
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_ac900f332fd12fe79cf5bb0aa1397e465}\index{TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}!ChangeStatus@{ChangeStatus}}
+\index{ChangeStatus@{ChangeStatus}!TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}}
+\doxysubsubsection{\texorpdfstring{ChangeStatus()}{ChangeStatus()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_models_1_1_ticket_ac900f332fd12fe79cf5bb0aa1397e465} 
+void Ticket\+System.\+Models.\+Ticket.\+Change\+Status (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a0a871bbeda39632bb0fd8c284c003f56}{Ticket\+Status}}}]{new\+Status}{, }\item[{string}]{comment}{, }\item[{string}]{performed\+By}{ = {\ttfamily "{}Admin"{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zmienia status zgłoszenia i zapisuje tę operację w historii. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Status} & Nowy status zgłoszenia.\\
+\hline
+{\em comment} & Komentarz opisujący zmianę.\\
+\hline
+{\em performed\+By} & Osoba/\+system wykonujący zmianę.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ticket_system_1_1_models_1_1_ticket_a4b0a03ad2012b67c39f387d8883c734e}\index{TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}!GetEstimatedResolutionTime@{GetEstimatedResolutionTime}}
+\index{GetEstimatedResolutionTime@{GetEstimatedResolutionTime}!TicketSystem.Models.Ticket@{TicketSystem.Models.Ticket}}
+\doxysubsubsection{\texorpdfstring{GetEstimatedResolutionTime()}{GetEstimatedResolutionTime()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_models_1_1_ticket_a4b0a03ad2012b67c39f387d8883c734e} 
+int Ticket\+System.\+Models.\+Ticket.\+Get\+Estimated\+Resolution\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Zwraca szacowany czas realizacji zgłoszenia. Implementacja zależy od konkretnego typu zgłoszenia. 
+
+\begin{DoxyReturn}{Returns}
+Szacowany czas realizacji w godzinach.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Models/\+Ticket.\+cs\end{DoxyCompactItemize}

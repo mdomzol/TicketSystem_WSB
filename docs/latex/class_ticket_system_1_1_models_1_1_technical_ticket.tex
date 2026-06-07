@@ -1,0 +1,104 @@
+\doxysection{Ticket\+System.\+Models.\+Technical\+Ticket Class Reference}
+\hypertarget{class_ticket_system_1_1_models_1_1_technical_ticket}{}\label{class_ticket_system_1_1_models_1_1_technical_ticket}\index{TicketSystem.Models.TechnicalTicket@{TicketSystem.Models.TechnicalTicket}}
+
+
+Reprezentuje zgłoszenie techniczne (Technical Issue).  
+
+
+Inheritance diagram for Ticket\+System.\+Models.\+Technical\+Ticket:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ticket_system_1_1_models_1_1_technical_ticket}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_technical_ticket_a7f016e323f14a71384cce6c781eb64aa}{Technical\+Ticket}} (string title, string description)
+\begin{DoxyCompactList}\small\item\em Tworzy nowe zgłoszenie techniczne. \end{DoxyCompactList}\item 
+override int \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_technical_ticket_af7aed5de8a5e4c7f57cd1371e947845d}{Get\+Estimated\+Resolution\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca szacowany czas realizacji zgłoszenia technicznego. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket\+System.\+Models.\+Ticket}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_ac900f332fd12fe79cf5bb0aa1397e465}{Change\+Status}} (\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a0a871bbeda39632bb0fd8c284c003f56}{Ticket\+Status}} new\+Status, string comment, string performed\+By="{}Admin"{})
+\begin{DoxyCompactList}\small\item\em Zmienia status zgłoszenia i zapisuje tę operację w historii. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_a4b0a03ad2012b67c39f387d8883c734e}{Get\+Estimated\+Resolution\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca szacowany czas realizacji zgłoszenia. Implementacja zależy od konkretnego typu zgłoszenia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket\+System.\+Models.\+Ticket}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_a30d46eeed8dfcb2c8b7de4c7958f405c}{Ticket}} (string title, string description)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy bazowej \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}. Inicjalizuje podstawowe dane zgłoszenia oraz zapisuje wpis w historii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket\+System.\+Models.\+Ticket}}}
+\begin{DoxyCompactItemize}
+\item 
+Guid {\bfseries Id}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Unikalny identyfikator zgłoszenia (GUID). \end{DoxyCompactList}\item 
+int {\bfseries Number}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Czytelny numer zgłoszenia używany w interfejsie użytkownika. \end{DoxyCompactList}\item 
+string {\bfseries Title}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Tytuł zgłoszenia. \end{DoxyCompactList}\item 
+string {\bfseries Description}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Szczegółowy opis zgłoszenia. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a0a871bbeda39632bb0fd8c284c003f56}{Ticket\+Status}} {\bfseries Status}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Aktualny status zgłoszenia. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespace_ticket_system_1_1_enums_a2477325d63c91daed873023f7ebd7179}{Ticket\+Priority}} {\bfseries Priority}\hspace{0.3cm}{\ttfamily  \+[get, protected set]\+}
+\begin{DoxyCompactList}\small\item\em Priorytet zgłoszenia (ustalany przez klasy pochodne). \end{DoxyCompactList}\item 
+Date\+Time {\bfseries Created\+At}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Data utworzenia zgłoszenia. \end{DoxyCompactList}\item 
+string {\bfseries Last\+Action\+By} = "{}System"{}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Informacja o ostatniej wykonanej akcji na zgłoszeniu. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket_history_entry}{Ticket\+History\+Entry}} $>$ {\bfseries History} = \+[$\,$]\+\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Historia zmian i zdarzeń związanych ze zgłoszeniem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezentuje zgłoszenie techniczne (Technical Issue). 
+
+Klasa dziedziczy po klasie bazowej \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket} i definiuje specyficzne zachowanie dla zgłoszeń technicznych, w tym szacowany czas realizacji. 
+
+\label{class_ticket_system_1_1_models_1_1_technical_ticket_doc-constructors}
+\Hypertarget{class_ticket_system_1_1_models_1_1_technical_ticket_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_ticket_system_1_1_models_1_1_technical_ticket_a7f016e323f14a71384cce6c781eb64aa}\index{TicketSystem.Models.TechnicalTicket@{TicketSystem.Models.TechnicalTicket}!TechnicalTicket@{TechnicalTicket}}
+\index{TechnicalTicket@{TechnicalTicket}!TicketSystem.Models.TechnicalTicket@{TicketSystem.Models.TechnicalTicket}}
+\doxysubsubsection{\texorpdfstring{TechnicalTicket()}{TechnicalTicket()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_models_1_1_technical_ticket_a7f016e323f14a71384cce6c781eb64aa} 
+Ticket\+System.\+Models.\+Technical\+Ticket.\+Technical\+Ticket (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{description}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Tworzy nowe zgłoszenie techniczne. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Tytuł zgłoszenia.\\
+\hline
+{\em description} & Opis zgłoszenia.\\
+\hline
+\end{DoxyParams}
+
+
+\label{class_ticket_system_1_1_models_1_1_technical_ticket_doc-func-members}
+\Hypertarget{class_ticket_system_1_1_models_1_1_technical_ticket_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ticket_system_1_1_models_1_1_technical_ticket_af7aed5de8a5e4c7f57cd1371e947845d}\index{TicketSystem.Models.TechnicalTicket@{TicketSystem.Models.TechnicalTicket}!GetEstimatedResolutionTime@{GetEstimatedResolutionTime}}
+\index{GetEstimatedResolutionTime@{GetEstimatedResolutionTime}!TicketSystem.Models.TechnicalTicket@{TicketSystem.Models.TechnicalTicket}}
+\doxysubsubsection{\texorpdfstring{GetEstimatedResolutionTime()}{GetEstimatedResolutionTime()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_models_1_1_technical_ticket_af7aed5de8a5e4c7f57cd1371e947845d} 
+override int Ticket\+System.\+Models.\+Technical\+Ticket.\+Get\+Estimated\+Resolution\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zwraca szacowany czas realizacji zgłoszenia technicznego. 
+
+\begin{DoxyReturn}{Returns}
+Szacowany czas realizacji w godzinach (16h).
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Models/\+Technical\+Ticket.\+cs\end{DoxyCompactItemize}

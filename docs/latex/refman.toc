@@ -1,0 +1,113 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Ticket System – Projekt z Programowania Obiektowego }{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Opis projektu}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Główne funkcjonalności}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Panel klienta}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Panel administratora}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Struktura projektu}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Models}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Services}{3}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Repository}{3}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI}{3}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Zastosowane mechanizmy OOP}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Abstrakcja}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Dziedziczenie}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Polimorfizm}{4}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Autorzy}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Prowadzący}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Semestr}{4}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Informacje}{4}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Namespace List}{5}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Hierarchical Index}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{6}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System Namespace Reference}{8}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI Namespace Reference}{8}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Helpers Namespace Reference}{8}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Seeder Namespace Reference}{8}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enums Namespace Reference}{8}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Enumeration Type Documentation}{9}{subsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.1}TicketPriority}{9}{subsubsection.5.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.2}TicketStatus}{9}{subsubsection.5.5.1.2}%
+\contentsline {section}{\numberline {5.6}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exceptions Namespace Reference}{9}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces Namespace Reference}{9}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models Namespace Reference}{9}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Repositories Namespace Reference}{10}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Services Namespace Reference}{10}{section.5.10}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel Class Reference}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{11}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{11}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}AdminPanel()}{11}{subsubsection.6.1.2.1}%
+\contentsline {section}{\numberline {6.2}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bug\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket Class Reference}{11}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{12}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Constructor \& Destructor Documentation}{13}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}BugTicket()}{13}{subsubsection.6.2.2.1}%
+\contentsline {subsection}{\numberline {6.2.3}Member Function Documentation}{13}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}GetEstimatedResolutionTime()}{13}{subsubsection.6.2.3.1}%
+\contentsline {section}{\numberline {6.3}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Client\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel Class Reference}{13}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{13}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{13}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}ClientPanel()}{13}{subsubsection.6.3.2.1}%
+\contentsline {section}{\numberline {6.4}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Request\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket Class Reference}{14}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{15}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Constructor \& Destructor Documentation}{15}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}FeatureRequestTicket()}{15}{subsubsection.6.4.2.1}%
+\contentsline {subsection}{\numberline {6.4.3}Member Function Documentation}{15}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}GetEstimatedResolutionTime()}{15}{subsubsection.6.4.3.1}%
+\contentsline {section}{\numberline {6.5}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Repositories.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}In\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Memory\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Repository Class Reference}{15}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{16}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{16}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}Add()}{16}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}GetAll()}{16}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}GetById()}{16}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}Remove()}{16}{subsubsection.6.5.2.4}%
+\contentsline {section}{\numberline {6.6}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ITicket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Repository Interface Reference}{17}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{17}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Member Function Documentation}{17}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}Add()}{17}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}GetAll()}{17}{subsubsection.6.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}GetById()}{18}{subsubsection.6.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.6.2.4}Remove()}{18}{subsubsection.6.6.2.4}%
+\contentsline {section}{\numberline {6.7}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interfaces.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ITicket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Interface Reference}{18}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{18}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Member Function Documentation}{19}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}ChangeTicketStatus()}{19}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}CreateTicket()}{19}{subsubsection.6.7.2.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.3}GetAllTickets()}{19}{subsubsection.6.7.2.3}%
+\contentsline {section}{\numberline {6.8}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Console\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Class Reference}{19}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{20}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{20}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}MenuService()}{20}{subsubsection.6.8.2.1}%
+\contentsline {section}{\numberline {6.9}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Technical\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket Class Reference}{20}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{21}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Constructor \& Destructor Documentation}{21}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}TechnicalTicket()}{21}{subsubsection.6.9.2.1}%
+\contentsline {subsection}{\numberline {6.9.3}Member Function Documentation}{21}{subsection.6.9.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.1}GetEstimatedResolutionTime()}{21}{subsubsection.6.9.3.1}%
+\contentsline {section}{\numberline {6.10}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket Class Reference}{22}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{22}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{23}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}Ticket()}{23}{subsubsection.6.10.2.1}%
+\contentsline {subsection}{\numberline {6.10.3}Member Function Documentation}{23}{subsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.3.1}ChangeStatus()}{23}{subsubsection.6.10.3.1}%
+\contentsline {subsubsection}{\numberline {6.10.3.2}GetEstimatedResolutionTime()}{23}{subsubsection.6.10.3.2}%
+\contentsline {section}{\numberline {6.11}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{23}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{24}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{24}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}TicketException()}{24}{subsubsection.6.11.2.1}%
+\contentsline {section}{\numberline {6.12}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}History\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Entry Class Reference}{24}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{24}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Constructor \& Destructor Documentation}{24}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}TicketHistoryEntry()}{24}{subsubsection.6.12.2.1}%
+\contentsline {section}{\numberline {6.13}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Services.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ticket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Class Reference}{25}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{25}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Constructor \& Destructor Documentation}{25}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}TicketService()}{25}{subsubsection.6.13.2.1}%
+\contentsline {subsection}{\numberline {6.13.3}Member Function Documentation}{25}{subsection.6.13.3}%
+\contentsline {subsubsection}{\numberline {6.13.3.1}ChangeTicketStatus()}{25}{subsubsection.6.13.3.1}%
+\contentsline {subsubsection}{\numberline {6.13.3.2}CreateTicket()}{26}{subsubsection.6.13.3.2}%
+\contentsline {subsubsection}{\numberline {6.13.3.3}GetAllTickets()}{26}{subsubsection.6.13.3.3}%

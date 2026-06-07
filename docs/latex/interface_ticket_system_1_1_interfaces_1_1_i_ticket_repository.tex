@@ -1,0 +1,123 @@
+\doxysection{Ticket\+System.\+Interfaces.\+ITicket\+Repository Interface Reference}
+\hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository}{}\label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository}\index{TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}}
+
+
+Interfejs definiujący kontrakt repozytorium ticketów.  
+
+
+Inheritance diagram for Ticket\+System.\+Interfaces.\+ITicket\+Repository:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a15eb06665578cdb2d847aa0f53ef6d61}{Add}} (\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}} ticket)
+\begin{DoxyCompactList}\small\item\em Dodaje nowe zgłoszenie do repozytorium. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}}? \doxymbox{\hyperlink{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a7ea039c326e9cb03c53dac3bb614e2e3}{Get\+By\+Id}} (Guid id)
+\begin{DoxyCompactList}\small\item\em Pobiera zgłoszenie o podanym identyfikatorze. \end{DoxyCompactList}\item 
+IEnumerable$<$ \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}} $>$ \doxymbox{\hyperlink{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_afdadcd4956ecc2831d703e0101894931}{Get\+All}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera wszystkie zgłoszenia z repozytorium. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_aa146650689368b589849e9b9a8ea0b0f}{Remove}} (Guid id)
+\begin{DoxyCompactList}\small\item\em Usuwa zgłoszenie o podanym identyfikatorze. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfejs definiujący kontrakt repozytorium ticketów. 
+
+Odpowiada za operacje dostępu do danych (warstwa persystencji), niezależnie od sposobu ich przechowywania.
+
+Może być zaimplementowany np. jako:\+
+\begin{DoxyItemize}
+\item pamięć (In\+Memory),
+\item baza danych,
+\item plik. 
+\end{DoxyItemize}
+
+\label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_doc-func-members}
+\Hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a15eb06665578cdb2d847aa0f53ef6d61}\index{TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}!Add@{Add}}
+\index{Add@{Add}!TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a15eb06665578cdb2d847aa0f53ef6d61} 
+void Ticket\+System.\+Interfaces.\+ITicket\+Repository.\+Add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}}}]{ticket}{}\end{DoxyParamCaption})}
+
+
+
+Dodaje nowe zgłoszenie do repozytorium. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ticket} & Obiekt zgłoszenia do zapisania.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \doxymbox{\hyperlink{class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository_afcd82beca95043266f4fb03cfb1f47c6}{Ticket\+System.\+Repositories.\+In\+Memory\+Ticket\+Repository}}.
+
+\Hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_afdadcd4956ecc2831d703e0101894931}\index{TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}!GetAll@{GetAll}}
+\index{GetAll@{GetAll}!TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}}
+\doxysubsubsection{\texorpdfstring{GetAll()}{GetAll()}}
+{\footnotesize\ttfamily \label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_afdadcd4956ecc2831d703e0101894931} 
+IEnumerable$<$ \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}} $>$ Ticket\+System.\+Interfaces.\+ITicket\+Repository.\+Get\+All (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Pobiera wszystkie zgłoszenia z repozytorium. 
+
+\begin{DoxyReturn}{Returns}
+Kolekcja wszystkich zgłoszeń.
+\end{DoxyReturn}
+
+
+Implemented in \doxymbox{\hyperlink{class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository_ac1673b5b9a90c6a881c74d14e7c87883}{Ticket\+System.\+Repositories.\+In\+Memory\+Ticket\+Repository}}.
+
+\Hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a7ea039c326e9cb03c53dac3bb614e2e3}\index{TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}!GetById@{GetById}}
+\index{GetById@{GetById}!TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}}
+\doxysubsubsection{\texorpdfstring{GetById()}{GetById()}}
+{\footnotesize\ttfamily \label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_a7ea039c326e9cb03c53dac3bb614e2e3} 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}}? Ticket\+System.\+Interfaces.\+ITicket\+Repository.\+Get\+By\+Id (\begin{DoxyParamCaption}\item[{Guid}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Pobiera zgłoszenie o podanym identyfikatorze. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identyfikator zgłoszenia.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Obiekt \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket} jeśli istnieje, w przeciwnym razie null. 
+\end{DoxyReturn}
+
+
+Implemented in \doxymbox{\hyperlink{class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository_a24ffa7216b6e1000d085163577ca3587}{Ticket\+System.\+Repositories.\+In\+Memory\+Ticket\+Repository}}.
+
+\Hypertarget{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_aa146650689368b589849e9b9a8ea0b0f}\index{TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}!Remove@{Remove}}
+\index{Remove@{Remove}!TicketSystem.Interfaces.ITicketRepository@{TicketSystem.Interfaces.ITicketRepository}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily \label{interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository_aa146650689368b589849e9b9a8ea0b0f} 
+void Ticket\+System.\+Interfaces.\+ITicket\+Repository.\+Remove (\begin{DoxyParamCaption}\item[{Guid}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Usuwa zgłoszenie o podanym identyfikatorze. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identyfikator zgłoszenia do usunięcia.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \doxymbox{\hyperlink{class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository_a6b735e323e06a574f5c0355377982a24}{Ticket\+System.\+Repositories.\+In\+Memory\+Ticket\+Repository}}.
+
+
+
+The documentation for this interface was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Interfaces/\+ITicket\+Repository.\+cs\end{DoxyCompactItemize}

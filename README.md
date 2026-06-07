@@ -102,3 +102,27 @@ Metoda:
 ```csharp
 GetEstimatedResolutionTime()
 ```
+
+## Autorzy
+
+- Michał Domżoł
+- Bartłomiej Baumert
+- Kamil Dosa
+- Tomasz Barnaś
+- Michał Kuśmierek
+
+## Prowadzący
+
+mgr inż. Arkadiusz Banasik
+
+## Semestr
+
+Semestr letni 2025/2026
+
+## Informacje
+
+Projekt wykonany w ramach przedmiotu **Programowanie Obiektowe**.
+
+WSB Merito.
+
+Celem projektu było zaprojektowanie i implementacja konsolowego systemu obsługi zgłoszeń (Ticket System) z wykorzystaniem podstawowych mechanizmów programowania obiektowego, takich jak dziedziczenie, polimorfizm, abstrakcja oraz enkapsulacja.
