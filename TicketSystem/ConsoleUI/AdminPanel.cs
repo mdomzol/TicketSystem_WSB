@@ -3,15 +3,32 @@ using TicketSystem.ConsoleUI.Helpers;
 
 namespace TicketSystem.ConsoleUI;
 
+/// <summary>
+/// Panel administratora systemu ticketów.
+/// </summary>
+/// <remarks>
+/// Umożliwia przeglądanie zgłoszeń, podgląd szczegółów
+/// oraz zmianę statusu istniejących ticketów.
+/// 
+/// Logika wyświetlania została przeniesiona do klasy TicketConsolePrinter,
+/// dzięki czemu panel odpowiada wyłącznie za obsługę menu i przepływu użytkownika.
+/// </remarks>
 public class AdminPanel
 {
     private readonly TicketService _service;
 
+    /// <summary>
+    /// Inicjalizuje panel administratora z dostępem do serwisu ticketów.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący operacje na zgłoszeniach.</param>
     public AdminPanel(TicketService service)
     {
         _service = service;
     }
 
+    /// <summary>
+    /// Uruchamia panel administratora i obsługuje menu zarządzania zgłoszeniami.
+    /// </summary>
     public void Run()
     {
         while (true)

@@ -1,10 +1,11 @@
-# 🎫 Ticket System – Projekt z Programowania Obiektowego
+# Ticket System – Projekt z Programowania Obiektowego
 
-## 📌 Opis projektu
+## Opis projektu
 
 Ticket System to konsolowa aplikacja napisana w języku C#, której celem jest symulacja prostego systemu obsługi zgłoszeń (helpdesk / service desk).
 
 Projekt został przygotowany w ramach zajęć z Programowania Obiektowego i demonstruje praktyczne zastosowanie podstawowych zasad OOP, takich jak:
+
 - enkapsulacja,
 - dziedziczenie,
 - polimorfizm,
@@ -15,9 +16,10 @@ Aplikacja umożliwia tworzenie oraz obsługę zgłoszeń technicznych w podziale
 
 ---
 
-## ⚙️ Główne funkcjonalności
+## Główne funkcjonalności
 
-### 👤 Panel klienta
+### Panel klienta
+
 - tworzenie zgłoszeń typu:
   - Bug
   - Feature Request
@@ -25,7 +27,8 @@ Aplikacja umożliwia tworzenie oraz obsługę zgłoszeń technicznych w podziale
 - wprowadzanie tytułu i opisu zgłoszenia
 - automatyczne przypisanie statusu „Open”
 
-### 🛠️ Panel administratora
+### Panel administratora
+
 - przegląd wszystkich zgłoszeń w formie tabeli
 - podgląd szczegółów zgłoszenia
 - zmiana statusu zgłoszenia z komentarzem
@@ -33,12 +36,14 @@ Aplikacja umożliwia tworzenie oraz obsługę zgłoszeń technicznych w podziale
 
 ---
 
-## 🧱 Struktura projektu
+## Struktura projektu
 
 Projekt został podzielony na warstwy:
 
-### 📦 Models
+### Models
+
 Zawiera definicje encji domenowych:
+
 - `Ticket` (klasa abstrakcyjna)
 - klasy dziedziczące:
   - `BugTicket`
@@ -46,18 +51,24 @@ Zawiera definicje encji domenowych:
   - `TechnicalTicket`
 - `TicketHistoryEntry`
 
-### ⚙️ Services
+### Services
+
 Warstwa logiki biznesowej:
+
 - `TicketService` – obsługa operacji na zgłoszeniach
 - zarządzanie zmianą statusów i tworzeniem zgłoszeń
 
-### 🗄️ Repository
+### Repository
+
 Warstwa przechowywania danych:
+
 - `ITicketRepository`
 - implementacja pamięciowa (in-memory storage)
 
-### 🖥️ ConsoleUI
+### ConsoleUI
+
 Warstwa interfejsu użytkownika:
+
 - `AdminPanel`
 - `ClientPanel`
 - `ConsoleHelper`
@@ -68,20 +79,26 @@ Odpowiada za komunikację z użytkownikiem oraz prezentację danych.
 
 ---
 
-## 🧠 Zastosowane mechanizmy OOP
+## Zastosowane mechanizmy OOP
 
-### 🔹 Abstrakcja
+### Abstrakcja
+
 Klasa `Ticket` stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.
 
-### 🔹 Dziedziczenie
+### Dziedziczenie
+
 Typy zgłoszeń:
+
 - `BugTicket`
 - `FeatureRequestTicket`
 - `TechnicalTicket`
 
 dziedziczą po klasie bazowej `Ticket`.
 
-### 🔹 Polimorfizm
+### Polimorfizm
+
 Metoda:
+
 ```csharp
 GetEstimatedResolutionTime()
+```

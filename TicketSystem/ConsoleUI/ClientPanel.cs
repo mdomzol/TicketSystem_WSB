@@ -4,15 +4,29 @@ using TicketSystem.Services;
 
 namespace TicketSystem.ConsoleUI;
 
+/// <summary>
+/// Panel klienta systemu ticketów.
+/// </summary>
+/// <remarks>
+/// Odpowiada za tworzenie nowych zgłoszeń przez użytkownika.
+/// Użytkownik może wybrać typ zgłoszenia oraz wprowadzić jego dane.
+/// </remarks>
 public class ClientPanel
 {
     private readonly TicketService _service;
 
+    /// <summary>
+    /// Inicjalizuje panel klienta z dostępem do serwisu ticketów.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący operacje na zgłoszeniach.</param>
     public ClientPanel(TicketService service)
     {
         _service = service;
     }
 
+    /// <summary>
+    /// Uruchamia panel klienta i obsługuje proces tworzenia zgłoszenia.
+    /// </summary>
     public void Run()
     {
         ConsoleHelper.Header("PANEL KLIENTA");

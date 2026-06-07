@@ -4,8 +4,21 @@ using TicketSystem.Services;
 
 namespace TicketSystem.ConsoleUI.Helpers;
 
+/// <summary>
+/// Klasa pomocnicza odpowiedzialna za wyświetlanie i obsługę zgłoszeń w konsoli.
+/// </summary>
+/// <remarks>
+/// Zawiera logikę prezentacji danych oraz interakcji użytkownika
+/// związanych z wyborem, podglądem i zmianą statusu ticketów.
+/// 
+/// Klasa stanowi warstwę UI Helper i współpracuje z TicketService.
+/// </remarks>
 public static class TicketConsolePrinter
 {
+    /// <summary>
+    /// Wyświetla listę wszystkich zgłoszeń w systemie.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący zgłoszenia.</param>
     public static void ShowTickets(TicketService service)
     {
         ConsoleHelper.Header("LISTA ZGŁOSZEŃ");
@@ -16,7 +29,9 @@ public static class TicketConsolePrinter
 
         foreach (var t in service.GetAllTickets())
         {
-            Console.WriteLine($"{t.Number} | {t.GetType().Name.Replace("Ticket", ""),-9} | {t.Status,-11} | {t.Title}");
+            Console.WriteLine(
+                $"{t.Number} | {t.GetType().Name.Replace("Ticket", ""),-9} | {t.Priority,-11} | {t.Status,-11} | {t.Title}"
+            );
         }
 
         Console.WriteLine("==============================================================");
@@ -24,6 +39,11 @@ public static class TicketConsolePrinter
         ConsoleHelper.Pause();
     }
 
+    /// <summary>
+    /// Pozwala użytkownikowi wybrać zgłoszenie na podstawie numeru.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący zgłoszenia.</param>
+    /// <returns>Wybrane zgłoszenie Ticket.</returns>
     public static Ticket SelectTicket(TicketService service)
     {
         while (true)
@@ -56,18 +76,15 @@ public static class TicketConsolePrinter
         }
     }
 
+    /// <summary>
+    /// Wyświetla szczegóły wybranego zgłoszenia wraz z historią zmian.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący zgłoszenia.</param>
     public static void ShowDetails(TicketService service)
     {
         ConsoleHelper.Header("SZCZEGÓŁY ZGŁOSZENIA");
 
         var ticket = SelectTicket(service);
-
-        if (ticket == null)
-        {
-            Console.WriteLine("Nie znaleziono zgłoszenia.");
-            ConsoleHelper.Pause();
-            return;
-        }
 
         Console.WriteLine($"Ticket #{ticket.Number}");
         Console.WriteLine($"Typ: {ticket.GetType().Name}");
@@ -87,38 +104,33 @@ public static class TicketConsolePrinter
         ConsoleHelper.Pause();
     }
 
+    /// <summary>
+    /// Umożliwia zmianę statusu zgłoszenia wraz z dodaniem komentarza.
+    /// </summary>
+    /// <param name="service">Serwis obsługujący zgłoszenia.</param>
     public static void ChangeStatus(TicketService service)
     {
         ConsoleHelper.Header("ZMIANA STATUSU");
 
         var ticket = SelectTicket(service);
 
-        if (ticket == null)
-        {
-            Console.WriteLine("Nie znaleziono zgłoszenia.");
-            ConsoleHelper.Pause();
-            return;
-        }
-
         Console.WriteLine($"\nWybrano: #{ticket.Number} {ticket.Title}");
         Console.WriteLine($"Aktualny status: {ticket.Status}\n");
 
         Console.WriteLine("Nowy status:");
-        Console.WriteLine("1. Open");
-        Console.WriteLine("2. InProgress");
-        Console.WriteLine("3. Resolved");
-        Console.WriteLine("4. Closed");
-        Console.WriteLine("5. Reopened");
+        Console.WriteLine("1. Nowe");
+        Console.WriteLine("2. Realizacja");
+        Console.WriteLine("3. Zamknięte");
+        Console.WriteLine("4. Otwarty Ponownie");
 
         var input = Console.ReadLine();
 
         TicketStatus newStatus = input switch
         {
-            "1" => TicketStatus.Open,
-            "2" => TicketStatus.InProgress,
-            "3" => TicketStatus.Resolved,
-            "4" => TicketStatus.Closed,
-            "5" => TicketStatus.Reopened,
+            "1" => TicketStatus.Nowe,
+            "2" => TicketStatus.Realizacja,
+            "3" => TicketStatus.Zamknięte,
+            "4" => TicketStatus.Otwarty_Ponownie,
             _ => ticket.Status
         };
 
