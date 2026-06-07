@@ -1,11 +1,11 @@
 ﻿using TicketSystem.Models;
+using TicketSystem.Enums;
 
 namespace TicketSystem.Interfaces;
 
 public interface ITicketService
 {
     void CreateTicket(Ticket ticket);
-    void AssignTicket(Guid ticketId, string assignee);
-    void CloseTicket(Guid ticketId);
+    void ChangeTicketStatus(Guid ticketId, TicketStatus status, string comment);
     IEnumerable<Ticket> GetAllTickets();
 }

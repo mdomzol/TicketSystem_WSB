@@ -1,4 +1,5 @@
 ﻿using TicketSystem.Services;
+using TicketSystem.ConsoleUI.Helpers;
 
 namespace TicketSystem.ConsoleUI;
 
@@ -13,16 +14,34 @@ public class AdminPanel
 
     public void Run()
     {
-        Console.WriteLine("\n=== PANEL ADMINA ===");
-
-        var tickets = _service.GetAllTickets();
-
-        foreach (var t in tickets)
+        while (true)
         {
-            Console.WriteLine($"{t.Id} | {t.Title} | {t.Status}");
-        }
+            ConsoleHelper.Header("PANEL ADMINISTRATORA");
 
-        Console.WriteLine("\n(rozszerzymy: zmiana statusu, assign, szczegóły)");
-        Console.ReadLine();
+            Console.WriteLine("1. Lista zgloszen");
+            Console.WriteLine("2. Szczegoly zgloszenia");
+            Console.WriteLine("3. Zmien status zgloszenia");
+            Console.WriteLine("0. Powrot\n");
+
+            var choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    TicketConsolePrinter.ShowTickets(_service);
+                    break;
+
+                case "2":
+                    TicketConsolePrinter.ShowDetails(_service);
+                    break;
+
+                case "3":
+                    TicketConsolePrinter.ChangeStatus(_service);
+                    break;
+
+                case "0":
+                    return;
+            }
+        }
     }
 }

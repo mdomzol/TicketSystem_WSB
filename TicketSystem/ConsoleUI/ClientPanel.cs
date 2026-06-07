@@ -1,4 +1,5 @@
-﻿using TicketSystem.Models;
+﻿using TicketSystem.ConsoleUI.Helpers;
+using TicketSystem.Models;
 using TicketSystem.Services;
 
 namespace TicketSystem.ConsoleUI;
@@ -14,34 +15,34 @@ public class ClientPanel
 
     public void Run()
     {
-        Console.WriteLine("\n=== PANEL KLIENTA ===");
+        ConsoleHelper.Header("PANEL KLIENTA");
 
         Console.WriteLine("1. Bug");
         Console.WriteLine("2. Feature Request");
         Console.WriteLine("3. Technical Issue");
         Console.WriteLine("0. Powrót");
 
-        var choice = Console.ReadLine();
-        if (choice == "0") return;
+        var choice = InputHelper.ReadChoice(
+            "Wybierz opcję: ",
+            "0", "1", "2", "3"
+        );
 
-        Console.Write("Tytuł: ");
-        var title = Console.ReadLine();
+        if (choice == "0")
+            return;
 
-        Console.Write("Opis: ");
-        var desc = Console.ReadLine();
+        var title = InputHelper.ReadNonEmpty("Tytuł: ");
+        var desc = InputHelper.ReadNonEmpty("Opis: ");
 
         Ticket ticket = choice switch
         {
-            "1" => new BugTicket(title!, desc!),
-            "2" => new FeatureRequestTicket(title!, desc!),
-            "3" => new TechnicalTicket(title!, desc!),
-            _ => null
+            "1" => new BugTicket(title, desc),
+            "2" => new FeatureRequestTicket(title, desc),
+            "3" => new TechnicalTicket(title, desc),
+            _ => throw new InvalidOperationException()
         };
 
-        if (ticket != null)
-        {
-            _service.CreateTicket(ticket);
-            Console.WriteLine("Zgłoszenie utworzone!");
-        }
+        _service.CreateTicket(ticket);
+
+        ConsoleMessages.Success("Zgłoszenie utworzone!");
     }
 }

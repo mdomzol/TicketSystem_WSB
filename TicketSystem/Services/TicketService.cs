@@ -1,7 +1,7 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using TicketSystem.Exceptions;
+﻿using TicketSystem.Exceptions;
 using TicketSystem.Interfaces;
 using TicketSystem.Models;
+using TicketSystem.Enums;
 
 namespace TicketSystem.Services;
 
@@ -18,18 +18,12 @@ public class TicketService : ITicketService
         _repository.Add(ticket);
     }
 
-    public void AssignTicket(Guid ticketId, string assignee)
+    public void ChangeTicketStatus(Guid ticketId, TicketStatus status, string comment)
     {
-        var ticket = _repository.GetById(ticketId) ?? throw new TicketException("Nie znaleziono takiego ticketa.");
+        var ticket = _repository.GetById(ticketId)
+            ?? throw new TicketException("Nie znaleziono zgłoszenia.");
 
-        ticket.Assign(assignee);
-    }
-
-    public void CloseTicket(Guid ticketId)
-    {
-        var ticket = _repository.GetById(ticketId) ?? throw new TicketException("Nie znaleiono takiego ticketa.");
-
-        ticket.Close();
+        ticket.ChangeStatus(status, comment, "Admin");
     }
 
     public IEnumerable<Ticket> GetAllTickets()
