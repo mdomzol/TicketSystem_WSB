@@ -1,89 +1,87 @@
-# System obsługi zgłoszeń (TicketSystem)
+# 🎫 Ticket System – Projekt z Programowania Obiektowego
 
 ## 📌 Opis projektu
 
-System obsługi zgłoszeń (TicketSystem) to aplikacja konsolowa napisana w języku C#,
-która symuluje prosty system typu helpdesk / IT support.
+Ticket System to konsolowa aplikacja napisana w języku C#, której celem jest symulacja prostego systemu obsługi zgłoszeń (helpdesk / service desk).
 
-Użytkownik może tworzyć zgłoszenia (ticket), zarządzać nimi oraz zmieniać ich status.
-Projekt został wykonany w ramach zajęć z Programowania Obiektowego.
+Projekt został przygotowany w ramach zajęć z Programowania Obiektowego i demonstruje praktyczne zastosowanie podstawowych zasad OOP, takich jak:
+- enkapsulacja,
+- dziedziczenie,
+- polimorfizm,
+- abstrakcja,
+- separacja odpowiedzialności (SRP).
+
+Aplikacja umożliwia tworzenie oraz obsługę zgłoszeń technicznych w podziale na różne typy problemów oraz ich późniejsze przetwarzanie przez panel administracyjny.
 
 ---
 
-## 🎯 Funkcjonalności
+## ⚙️ Główne funkcjonalności
 
-- tworzenie zgłoszeń (ticketów)
-- obsługa różnych typów zgłoszeń:
-  - zgłoszenie błędu (Bug)
-  - zgłoszenie techniczne
-  - prośba o nową funkcjonalność
-- zmiana statusu zgłoszenia (Otwarte / W trakcie / Zamknięte)
-- przypisywanie zgłoszeń do użytkowników
-- wyświetlanie listy zgłoszeń
-- przechowywanie danych w pamięci (bez bazy danych)
+### 👤 Panel klienta
+- tworzenie zgłoszeń typu:
+  - Bug
+  - Feature Request
+  - Technical Issue
+- wprowadzanie tytułu i opisu zgłoszenia
+- automatyczne przypisanie statusu „Open”
+
+### 🛠️ Panel administratora
+- przegląd wszystkich zgłoszeń w formie tabeli
+- podgląd szczegółów zgłoszenia
+- zmiana statusu zgłoszenia z komentarzem
+- przegląd historii zmian
 
 ---
 
 ## 🧱 Struktura projektu
 
-Projekt został zaprojektowany zgodnie z zasadami programowania obiektowego (OOP).
+Projekt został podzielony na warstwy:
 
-### 🔹 Interfejsy
-- `ITicketRepository` – odpowiedzialny za operacje na danych (CRUD dla ticketów)
-- `ITicketService` – logika biznesowa systemu zgłoszeń
+### 📦 Models
+Zawiera definicje encji domenowych:
+- `Ticket` (klasa abstrakcyjna)
+- klasy dziedziczące:
+  - `BugTicket`
+  - `FeatureRequestTicket`
+  - `TechnicalTicket`
+- `TicketHistoryEntry`
 
-### 🔹 Klasy abstrakcyjne
-- `Ticket` – klasa bazowa dla wszystkich typów zgłoszeń
+### ⚙️ Services
+Warstwa logiki biznesowej:
+- `TicketService` – obsługa operacji na zgłoszeniach
+- zarządzanie zmianą statusów i tworzeniem zgłoszeń
 
-### 🔹 Klasy finalne (sealed)
-- `BugTicket` – zgłoszenie błędu systemu
-- `FeatureRequestTicket` – prośba o nową funkcjonalność
-- `TechnicalTicket` – zgłoszenie problemu technicznego
+### 🗄️ Repository
+Warstwa przechowywania danych:
+- `ITicketRepository`
+- implementacja pamięciowa (in-memory storage)
 
-### 🔹 Warstwa logiki
-- `TicketService` – implementacja logiki biznesowej
+### 🖥️ ConsoleUI
+Warstwa interfejsu użytkownika:
+- `AdminPanel`
+- `ClientPanel`
+- `ConsoleHelper`
+- `InputHelper`
+- `ConsoleMessages`
 
-### 🔹 Repozytorium danych
-- `InMemoryTicketRepository` – przechowywanie zgłoszeń w pamięci
-
----
-
-## 🧠 Zastosowane zasady OOP
-
-### 🔒 Hermetyzacja
-Dane zgłoszeń są chronione i mogą być modyfikowane tylko poprzez metody klasy,
-np. zmiana statusu (`Close()`, `Assign()`), a nie bezpośrednio przez pola.
-
-### 🧬 Dziedziczenie
-Wszystkie typy zgłoszeń dziedziczą po klasie abstrakcyjnej `Ticket`.
-
-### 🔄 Polimorfizm
-Różne typy zgłoszeń mogą posiadać odmienne zachowania,
-np. różny priorytet lub szacowany czas realizacji.
+Odpowiada za komunikację z użytkownikiem oraz prezentację danych.
 
 ---
 
-## 🧪 Testy
+## 🧠 Zastosowane mechanizmy OOP
 
-Projekt zawiera testy jednostkowe (xUnit lub NUnit), obejmujące:
+### 🔹 Abstrakcja
+Klasa `Ticket` stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.
 
-- tworzenie zgłoszeń
-- zmianę statusu zgłoszenia
-- przypisywanie zgłoszeń
-- walidację reguł biznesowych (np. brak edycji zamkniętego zgłoszenia)
+### 🔹 Dziedziczenie
+Typy zgłoszeń:
+- `BugTicket`
+- `FeatureRequestTicket`
+- `TechnicalTicket`
 
----
+dziedziczą po klasie bazowej `Ticket`.
 
-## 🛠️ Technologie
-
-- C#
-- .NET (aplikacja konsolowa)
-- xUnit / NUnit (testy jednostkowe)
-
----
-
-## 🚀 Uruchomienie projektu
-
-1. Sklonuj repozytorium:
-```bash
-git clone https://github.com/twoj-username/TicketSystem.git
+### 🔹 Polimorfizm
+Metoda:
+```csharp
+GetEstimatedResolutionTime()
