@@ -83,25 +83,58 @@ Odpowiada za komunikację z użytkownikiem oraz prezentację danych.
 
 ### Abstrakcja
 
-Klasa `Ticket` stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.
+Klasa `Ticket` stanowi abstrakcyjną klasę bazową dla wszystkich typów zgłoszeń. Definiuje wspólne właściwości, takie jak identyfikator zgłoszenia, tytuł, opis, status oraz historię zmian. Dodatkowo deklaruje abstrakcyjną metodę `GetEstimatedResolutionTime()`, której implementacja jest wymagana w klasach pochodnych.
+
+### Hermetyzacja
+
+W projekcie zastosowano hermetyzację poprzez kontrolowanie dostępu do danych obiektów za pomocą właściwości oraz odpowiednich modyfikatorów dostępu.
+
+Przykłady:
+
+- właściwość `Id` jest dostępna wyłącznie do odczytu,
+- właściwość `Priority` posiada `protected set`,
+- zmiana statusu zgłoszenia odbywa się wyłącznie przez metodę `ChangeStatus()`.
 
 ### Dziedziczenie
 
-Typy zgłoszeń:
+Klasy:
 
 - `BugTicket`
 - `FeatureRequestTicket`
 - `TechnicalTicket`
 
-dziedziczą po klasie bazowej `Ticket`.
+dziedziczą po abstrakcyjnej klasie `Ticket`, przejmując jej wspólne właściwości i zachowania, a jednocześnie rozszerzając funkcjonalność o własne implementacje.
 
 ### Polimorfizm
 
-Metoda:
+Polimorfizm został zrealizowany za pomocą metody:
 
 ```csharp
 GetEstimatedResolutionTime()
 ```
+
+Metoda ta została zadeklarowana w klasie bazowej `Ticket`, a następnie nadpisana w klasach pochodnych:
+
+- `BugTicket` – 8 godzin,
+- `TechnicalTicket` – 16 godzin,
+- `FeatureRequestTicket` – 40 godzin.
+
+Dzięki temu możliwe jest operowanie na obiektach poprzez referencję typu `Ticket` bez znajomości ich rzeczywistego typu.
+
+### Interfejsy
+
+W projekcie wykorzystano interfejsy:
+
+- `ITicketRepository`
+- `ITicketService`
+
+Pozwalają one oddzielić kontrakt od implementacji oraz zwiększają elastyczność projektu poprzez możliwość łatwej podmiany implementacji poszczególnych komponentów.
+
+### Klasa finalna
+
+Klasa `TicketHistoryEntry` została oznaczona słowem kluczowym `sealed`.
+
+Uniemożliwia to dalsze dziedziczenie tej klasy i zabezpiecza model historii zgłoszeń przed niekontrolowanym rozszerzaniem. Ze względu na prostą i niemutowalną strukturę obiektu dziedziczenie nie jest wymagane.
 
 ## Autorzy
 
