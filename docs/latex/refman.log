@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.7)  10 JUN 2026 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.7)  10 JUN 2026 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1048,11 +1048,11 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 50
  (C:\Users\domzo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-[2]) [3]
+[2] [3]) [4]
 Chapter 2.
 (namespaces.tex
 
-LaTeX Warning: Reference `namespace_ticket_system_1_1_tests' on page 4 undefine
+LaTeX Warning: Reference `namespace_ticket_system_1_1_tests' on page 5 undefine
 d on input line 13.
 
 )
@@ -1062,30 +1062,30 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 260.
 
-[4
+[5
 
 ]
 Chapter 3.
 (hierarchy.tex
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_helpe
-r' on page 5 undefined on input line 5.
+r' on page 6 undefined on input line 5.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_messa
-ges' on page 5 undefined on input line 6.
+ges' on page 6 undefined on input line 6.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_data_seeder_1_1_fake_data_see
-der' on page 5 undefined on input line 10.
+der' on page 6 undefined on input line 10.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_i
-nput_helper' on page 5 undefined on input line 11.
+nput_helper' on page 6 undefined on input line 11.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_t
-icket_console_printer' on page 5 undefined on input line 28.
+icket_console_printer' on page 6 undefined on input line 28.
 
 )
 
@@ -1094,30 +1094,30 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 263.
 
-[5
+[6
 
 ]
 Chapter 4.
 (annotated.tex
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_helpe
-r' on page 6 undefined on input line 6.
+r' on page 7 undefined on input line 6.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_messa
-ges' on page 6 undefined on input line 7.
+ges' on page 7 undefined on input line 7.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_data_seeder_1_1_fake_data_see
-der' on page 6 undefined on input line 8.
+der' on page 7 undefined on input line 8.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_i
-nput_helper' on page 6 undefined on input line 11.
+nput_helper' on page 7 undefined on input line 11.
 
 
 LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_t
-icket_console_printer' on page 6 undefined on input line 18.
+icket_console_printer' on page 7 undefined on input line 18.
 
 )
 
@@ -1126,7 +1126,7 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 266.
 
-[6
+[7
 
 ]
 Chapter 5.
@@ -1144,17 +1144,17 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 7.
 
-[7
+[8
 
 ]) (namespace_ticket_system_1_1_enums.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 26.
 )
 (namespace_ticket_system_1_1_exceptions.tex)
-(namespace_ticket_system_1_1_interfaces.tex [8])
+(namespace_ticket_system_1_1_interfaces.tex [9])
 (namespace_ticket_system_1_1_models.tex)
 (namespace_ticket_system_1_1_repositories.tex)
-(namespace_ticket_system_1_1_services.tex) [9]
+(namespace_ticket_system_1_1_services.tex) [10]
 Chapter 6.
 (class_ticket_system_1_1_console_u_i_1_1_admin_panel.tex
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
@@ -1170,11 +1170,11 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 75.
 
-[10
+[11
 
 ]) (class_ticket_system_1_1_models_1_1_bug_ticket.tex <./class_ticket_system_1_
 1_models_1_1_bug_ticket.pdf>
-<class_ticket_system_1_1_models_1_1_bug_ticket.pdf, id=1115, 501.875pt x 204.76
+<class_ticket_system_1_1_models_1_1_bug_ticket.pdf, id=1137, 501.875pt x 204.76
 5pt>
 File: class_ticket_system_1_1_models_1_1_bug_ticket.pdf Graphic file (type pdf)
 
@@ -1182,7 +1182,7 @@ File: class_ticket_system_1_1_models_1_1_bug_ticket.pdf Graphic file (type pdf)
 Package pdftex.def Info: class_ticket_system_1_1_models_1_1_bug_ticket.pdf  use
 d on input line 11.
 (pdftex.def)             Requested size: 139.47488pt x 56.9055pt.
- [11]
+ [12]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 99.
 
@@ -1190,10 +1190,10 @@ Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
-) (class_ticket_system_1_1_console_u_i_1_1_client_panel.tex [12])
+) (class_ticket_system_1_1_console_u_i_1_1_client_panel.tex [13])
 (class_ticket_system_1_1_models_1_1_feature_request_ticket.tex <./class_ticket_
 system_1_1_models_1_1_feature_request_ticket.pdf>
-<class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf, id=1225, 501.87
+<class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf, id=1247, 501.87
 5pt x 153.57375pt>
 File: class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf Graphic fil
 e (type pdf)
@@ -1201,7 +1201,7 @@ e (type pdf)
 Package pdftex.def Info: class_ticket_system_1_1_models_1_1_feature_request_tic
 ket.pdf  used on input line 11.
 (pdftex.def)             Requested size: 185.96652pt x 56.9055pt.
- [13] [14]
+ [14] [15]
 Underfull \hbox (badness 10000) detected at line 97
 [][][]
  []
@@ -1209,7 +1209,7 @@ Underfull \hbox (badness 10000) detected at line 97
 ) (class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.tex <./
 class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf>
 <class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf, id=1
-304, 501.875pt x 126.4725pt>
+326, 501.875pt x 126.4725pt>
 File: class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf 
 Graphic file (type pdf)
 <use class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf>
@@ -1217,7 +1217,7 @@ Package pdftex.def Info: class_ticket_system_1_1_repositories_1_1_in_memory_tic
 ket_repository.pdf  used on input line 11.
 (pdftex.def)             Requested size: 225.81868pt x 56.9055pt.
 
-[15]
+[16]
 Underfull \hbox (badness 10000) detected at line 69
 [][][]
  []
@@ -1235,7 +1235,7 @@ m.[]Repositories.[]In[]Memory[]Ticket[]Repository.[]_[]tickets = [][$ $][]
 
 ) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.tex <./interf
 ace_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf>
-<interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf, id=1364, 5
+<interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf, id=1386, 5
 01.875pt x 126.4725pt>
 File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf Graphi
 c file (type pdf)
@@ -1243,19 +1243,19 @@ c file (type pdf)
 Package pdftex.def Info: interface_ticket_system_1_1_interfaces_1_1_i_ticket_re
 pository.pdf  used on input line 11.
 (pdftex.def)             Requested size: 225.81868pt x 56.9055pt.
- [16]
+ [17]
 Underfull \hbox (badness 10000) detected at line 71
 [][][]
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) detected at line 93
 [][][]
  []
 
 ) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.tex <./interface
 _ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf>
-<interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf, id=1428, 501.
+<interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf, id=1450, 501.
 875pt x 169.63374pt>
 File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf Graphic f
 ile (type pdf)
@@ -1265,7 +1265,7 @@ rvice.pdf  used on input line 11.
 (pdftex.def)             Requested size: 168.35315pt x 56.9055pt.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 39.
- [18]
+ [19]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -1285,10 +1285,10 @@ Underfull \hbox (badness 10000) detected at line 87
 [][][]
  []
 
-) (class_ticket_system_1_1_console_u_i_1_1_menu_service.tex [19])
+) (class_ticket_system_1_1_console_u_i_1_1_menu_service.tex [20])
 (class_ticket_system_1_1_models_1_1_technical_ticket.tex <./class_ticket_system
 _1_1_models_1_1_technical_ticket.pdf>
-<class_ticket_system_1_1_models_1_1_technical_ticket.pdf, id=1506, 501.875pt x 
+<class_ticket_system_1_1_models_1_1_technical_ticket.pdf, id=1529, 501.875pt x 
 174.6525pt>
 File: class_ticket_system_1_1_models_1_1_technical_ticket.pdf Graphic file (typ
 e pdf)
@@ -1296,28 +1296,28 @@ e pdf)
 Package pdftex.def Info: class_ticket_system_1_1_models_1_1_technical_ticket.pd
 f  used on input line 11.
 (pdftex.def)             Requested size: 163.52097pt x 56.9055pt.
- [20] [21]
+ [21] [22]
 Underfull \hbox (badness 10000) detected at line 97
 [][][]
  []
 
 ) (class_ticket_system_1_1_models_1_1_ticket.tex <./class_ticket_system_1_1_mod
 els_1_1_ticket.pdf>
-<class_ticket_system_1_1_models_1_1_ticket.pdf, id=1587, 501.875pt x 51.19125pt
+<class_ticket_system_1_1_models_1_1_ticket.pdf, id=1609, 501.875pt x 51.19125pt
 >
 File: class_ticket_system_1_1_models_1_1_ticket.pdf Graphic file (type pdf)
 <use class_ticket_system_1_1_models_1_1_ticket.pdf>
 Package pdftex.def Info: class_ticket_system_1_1_models_1_1_ticket.pdf  used on
  input line 11.
 (pdftex.def)             Requested size: 396.0021pt x 40.38939pt.
- [22] [23]
+ [23] [24]
 Underfull \hbox (badness 10000) detected at line 121
 [][][]
  []
 
-) (class_ticket_system_1_1_exceptions_1_1_ticket_exception.tex [24] <./class_ti
+) (class_ticket_system_1_1_exceptions_1_1_ticket_exception.tex [25] <./class_ti
 cket_system_1_1_exceptions_1_1_ticket_exception.pdf>
-<class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf, id=1675, 501.875p
+<class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf, id=1697, 501.875p
 t x 160.6pt>
 File: class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf Graphic file 
 (type pdf)
@@ -1326,10 +1326,10 @@ Package pdftex.def Info: class_ticket_system_1_1_exceptions_1_1_ticket_exceptio
 n.pdf  used on input line 11.
 (pdftex.def)             Requested size: 177.82608pt x 56.9055pt.
 )
-(class_ticket_system_1_1_models_1_1_ticket_history_entry.tex [25])
+(class_ticket_system_1_1_models_1_1_ticket_history_entry.tex [26])
 (class_ticket_system_1_1_services_1_1_ticket_service.tex <./class_ticket_system
 _1_1_services_1_1_ticket_service.pdf>
-<class_ticket_system_1_1_services_1_1_ticket_service.pdf, id=1712, 501.875pt x 
+<class_ticket_system_1_1_services_1_1_ticket_service.pdf, id=1735, 501.875pt x 
 169.63374pt>
 File: class_ticket_system_1_1_services_1_1_ticket_service.pdf Graphic file (typ
 e pdf)
@@ -1337,7 +1337,7 @@ e pdf)
 Package pdftex.def Info: class_ticket_system_1_1_services_1_1_ticket_service.pd
 f  used on input line 11.
 (pdftex.def)             Requested size: 168.35315pt x 56.9055pt.
- [26]
+ [27]
 Overfull \hbox (1.47571pt too wide) in paragraph at lines 78--78
 []\T1/phv/m/sl/10 ticket[] 
  []
@@ -1347,12 +1347,12 @@ Overfull \hbox (1.47571pt too wide) in paragraph at lines 78--78
 []\T1/phv/m/sl/10 ticket[] 
  []
 
-[27]
+[28]
 Underfull \hbox (badness 10000) detected at line 117
 [][][]
  []
 
-) [28]
+) [29]
 Chapter 7.
 (class_ticket_system_1_1_tests_1_1_project_tests.tex
 
@@ -1361,9 +1361,9 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 58.
 
-[29
+[30
 
-] [30]
+] [31]
 
 Package textcomp Warning: Symbol \textrightarrow not provided by
 (textcomp)                font family phv in TS1 encoding.
@@ -1379,7 +1379,7 @@ Package textcomp Warning: Symbol \textrightarrow not provided by
 (textcomp)                font family phv in TS1 encoding.
 (textcomp)                Default family used instead on input line 145.
 
-) [31]
+) [32]
 No file refman.ind.
 (refman.aux)
  ***********
@@ -1391,13 +1391,13 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: C7A1A67CDC0635BCAECED4DA6C60CC18;27919.
+(rerunfilecheck)             Checksum: DE3634A7BC3426695AFF560EC7BF1D25;28286.
  ) 
 Here is how much of TeX's memory you used:
- 21237 strings out of 467871
- 396661 string characters out of 5418377
- 836671 words of memory out of 5000000
- 49295 multiletter control sequences out of 15000+600000
+ 21250 strings out of 467871
+ 396944 string characters out of 5418377
+ 837375 words of memory out of 5000000
+ 49301 multiletter control sequences out of 15000+600000
  687051 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,16n,117p,1505b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1494,9 +1494,9 @@ ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/domzo/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/domzo/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/domzo/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (36 pages, 449398 bytes).
+Output written on refman.pdf (37 pages, 454931 bytes).
 PDF statistics:
- 2013 PDF objects out of 2073 (max. 8388607)
- 432 named destinations out of 1000 (max. 500000)
- 1262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2042 PDF objects out of 2073 (max. 8388607)
+ 439 named destinations out of 1000 (max. 500000)
+ 1286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

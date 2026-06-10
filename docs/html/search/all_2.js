@@ -5,5 +5,5 @@ var searchData=
   ['administratora_2',['Panel administratora',['../md__r_e_a_d_m_e.html#autotoc_md5',1,'']]],
   ['adminpanel_3',['AdminPanel',['../class_ticket_system_1_1_console_u_i_1_1_admin_panel.html',1,'TicketSystem.ConsoleUI.AdminPanel'],['../class_ticket_system_1_1_console_u_i_1_1_admin_panel.html#ab4c2f0a5dd1ea976dbcf67f4ce6f7009',1,'TicketSystem.ConsoleUI.AdminPanel.AdminPanel()']]],
   ['adminpanel_2ecs_4',['AdminPanel.cs',['../_admin_panel_8cs.html',1,'']]],
-  ['autorzy_5',['Autorzy',['../md__r_e_a_d_m_e.html#autotoc_md17',1,'']]]
+  ['autorzy_5',['Autorzy',['../md__r_e_a_d_m_e.html#autotoc_md20',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mechanizmy_20oop_0',['Zastosowane mechanizmy OOP',['../md__r_e_a_d_m_e.html#autotoc_md13',1,'']]],
-  ['models_1',['Models',['../md__r_e_a_d_m_e.html#autotoc_md8',1,'']]]
+  ['klasa_20finalna_0',['Klasa finalna',['../md__r_e_a_d_m_e.html#autotoc_md19',1,'']]],
+  ['klienta_1',['Panel klienta',['../md__r_e_a_d_m_e.html#autotoc_md4',1,'']]]
 ];

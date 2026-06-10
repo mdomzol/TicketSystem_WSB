@@ -201,21 +201,49 @@ ConsoleUI</h2>
 Zastosowane mechanizmy OOP</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 Abstrakcja</h2>
-<p>Klasa <span class="tt">Ticket</span> stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.</p>
+<p>Klasa <span class="tt">Ticket</span> stanowi abstrakcyjną klasę bazową dla wszystkich typów zgłoszeń. Definiuje wspólne właściwości, takie jak identyfikator zgłoszenia, tytuł, opis, status oraz historię zmian. Dodatkowo deklaruje abstrakcyjną metodę <span class="tt">GetEstimatedResolutionTime()</span>, której implementacja jest wymagana w klasach pochodnych.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
+Hermetyzacja</h2>
+<p>W projekcie zastosowano hermetyzację poprzez kontrolowanie dostępu do danych obiektów za pomocą właściwości oraz odpowiednich modyfikatorów dostępu.</p>
+<p>Przykłady:</p>
+<ul>
+<li>właściwość <span class="tt">Id</span> jest dostępna wyłącznie do odczytu,</li>
+<li>właściwość <span class="tt">Priority</span> posiada <span class="tt">protected set</span>,</li>
+<li>zmiana statusu zgłoszenia odbywa się wyłącznie przez metodę <span class="tt">ChangeStatus()</span>.</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 Dziedziczenie</h2>
-<p>Typy zgłoszeń:</p>
+<p>Klasy:</p>
 <ul>
 <li><span class="tt">BugTicket</span></li>
 <li><span class="tt">FeatureRequestTicket</span></li>
 <li><span class="tt">TechnicalTicket</span></li>
 </ul>
-<p>dziedziczą po klasie bazowej <span class="tt">Ticket</span>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+<p>dziedziczą po abstrakcyjnej klasie <span class="tt">Ticket</span>, przejmując jej wspólne właściwości i zachowania, a jednocześnie rozszerzając funkcjonalność o własne implementacje.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Polimorfizm</h2>
-<p>Metoda:</p>
+<p>Polimorfizm został zrealizowany za pomocą metody:</p>
 <div class="fragment"><div class="line">GetEstimatedResolutionTime()</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><p>Metoda ta została zadeklarowana w klasie bazowej <span class="tt">Ticket</span>, a następnie nadpisana w klasach pochodnych:</p>
+<ul>
+<li><span class="tt">BugTicket</span> – 8 godzin,</li>
+<li><span class="tt">TechnicalTicket</span> – 16 godzin,</li>
+<li><span class="tt">FeatureRequestTicket</span> – 40 godzin.</li>
+</ul>
+<p>Dzięki temu możliwe jest operowanie na obiektach poprzez referencję typu <span class="tt">Ticket</span> bez znajomości ich rzeczywistego typu.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+Interfejsy</h2>
+<p>W projekcie wykorzystano interfejsy:</p>
+<ul>
+<li><span class="tt">ITicketRepository</span></li>
+<li><span class="tt">ITicketService</span></li>
+</ul>
+<p>Pozwalają one oddzielić kontrakt od implementacji oraz zwiększają elastyczność projektu poprzez możliwość łatwej podmiany implementacji poszczególnych komponentów.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+Klasa finalna</h2>
+<p>Klasa <span class="tt">TicketHistoryEntry</span> została oznaczona słowem kluczowym <span class="tt">sealed</span>.</p>
+<p>Uniemożliwia to dalsze dziedziczenie tej klasy i zabezpiecza model historii zgłoszeń przed niekontrolowanym rozszerzaniem. Ze względu na prostą i niemutowalną strukturę obiektu dziedziczenie nie jest wymagane.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Autorzy</h1>
 <ul>
 <li>Michał Domżoł</li>
@@ -224,13 +252,13 @@ Autorzy</h1>
 <li>Tomasz Barnaś</li>
 <li>Michał Kuśmierek</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Prowadzący</h1>
 <p>mgr inż. Arkadiusz Banasik</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 Semestr</h1>
 <p>Semestr letni 2025/2026</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Informacje</h1>
 <p>Projekt wykonany w ramach przedmiotu <b>Programowanie Obiektowe</b>.</p>
 <p>WSB Merito.</p>

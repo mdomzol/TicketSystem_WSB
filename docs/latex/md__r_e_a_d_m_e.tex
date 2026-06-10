@@ -86,8 +86,18 @@ Odpowiada za komunikację z użytkownikiem oraz prezentację danych.
 \DoxyHorRuler{0}
 \hypertarget{md__r_e_a_d_m_e_autotoc_md13}{}\doxysection{\texorpdfstring{Zastosowane mechanizmy OOP}{Zastosowane mechanizmy OOP}}\label{md__r_e_a_d_m_e_autotoc_md13}
 \hypertarget{md__r_e_a_d_m_e_autotoc_md14}{}\doxysubsection{\texorpdfstring{Abstrakcja}{Abstrakcja}}\label{md__r_e_a_d_m_e_autotoc_md14}
-Klasa {\ttfamily Ticket} stanowi bazę dla wszystkich typów zgłoszeń i definiuje wspólne właściwości oraz zachowania.\hypertarget{md__r_e_a_d_m_e_autotoc_md15}{}\doxysubsection{\texorpdfstring{Dziedziczenie}{Dziedziczenie}}\label{md__r_e_a_d_m_e_autotoc_md15}
-Typy zgłoszeń:\+
+Klasa {\ttfamily Ticket} stanowi abstrakcyjną klasę bazową dla wszystkich typów zgłoszeń. Definiuje wspólne właściwości, takie jak identyfikator zgłoszenia, tytuł, opis, status oraz historię zmian. Dodatkowo deklaruje abstrakcyjną metodę {\ttfamily Get\+Estimated\+Resolution\+Time()}, której implementacja jest wymagana w klasach pochodnych.\hypertarget{md__r_e_a_d_m_e_autotoc_md15}{}\doxysubsection{\texorpdfstring{Hermetyzacja}{Hermetyzacja}}\label{md__r_e_a_d_m_e_autotoc_md15}
+W projekcie zastosowano hermetyzację poprzez kontrolowanie dostępu do danych obiektów za pomocą właściwości oraz odpowiednich modyfikatorów dostępu.
+
+Przykłady:\+
+
+
+\begin{DoxyItemize}
+\item właściwość {\ttfamily Id} jest dostępna wyłącznie do odczytu,
+\item właściwość {\ttfamily Priority} posiada {\ttfamily protected set},
+\item zmiana statusu zgłoszenia odbywa się wyłącznie przez metodę {\ttfamily Change\+Status()}.
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md16}{}\doxysubsection{\texorpdfstring{Dziedziczenie}{Dziedziczenie}}\label{md__r_e_a_d_m_e_autotoc_md16}
+Klasy:\+
 
 
 \begin{DoxyItemize}
@@ -96,15 +106,38 @@ Typy zgłoszeń:\+
 \item {\ttfamily Technical\+Ticket}
 \end{DoxyItemize}
 
-dziedziczą po klasie bazowej {\ttfamily Ticket}.\hypertarget{md__r_e_a_d_m_e_autotoc_md16}{}\doxysubsection{\texorpdfstring{Polimorfizm}{Polimorfizm}}\label{md__r_e_a_d_m_e_autotoc_md16}
-Metoda:\+
+dziedziczą po abstrakcyjnej klasie {\ttfamily Ticket}, przejmując jej wspólne właściwości i zachowania, a jednocześnie rozszerzając funkcjonalność o własne implementacje.\hypertarget{md__r_e_a_d_m_e_autotoc_md17}{}\doxysubsection{\texorpdfstring{Polimorfizm}{Polimorfizm}}\label{md__r_e_a_d_m_e_autotoc_md17}
+Polimorfizm został zrealizowany za pomocą metody:\+
 
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{GetEstimatedResolutionTime()}
 
 \end{DoxyCode}
-\hypertarget{md__r_e_a_d_m_e_autotoc_md17}{}\doxysection{\texorpdfstring{Autorzy}{Autorzy}}\label{md__r_e_a_d_m_e_autotoc_md17}
+
+
+Metoda ta została zadeklarowana w klasie bazowej {\ttfamily Ticket}, a następnie nadpisana w klasach pochodnych:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily Bug\+Ticket} – 8 godzin,
+\item {\ttfamily Technical\+Ticket} – 16 godzin,
+\item {\ttfamily Feature\+Request\+Ticket} – 40 godzin.
+\end{DoxyItemize}
+
+Dzięki temu możliwe jest operowanie na obiektach poprzez referencję typu {\ttfamily Ticket} bez znajomości ich rzeczywistego typu.\hypertarget{md__r_e_a_d_m_e_autotoc_md18}{}\doxysubsection{\texorpdfstring{Interfejsy}{Interfejsy}}\label{md__r_e_a_d_m_e_autotoc_md18}
+W projekcie wykorzystano interfejsy:\+
+
+
+\begin{DoxyItemize}
+\item {\ttfamily ITicket\+Repository}
+\item {\ttfamily ITicket\+Service}
+\end{DoxyItemize}
+
+Pozwalają one oddzielić kontrakt od implementacji oraz zwiększają elastyczność projektu poprzez możliwość łatwej podmiany implementacji poszczególnych komponentów.\hypertarget{md__r_e_a_d_m_e_autotoc_md19}{}\doxysubsection{\texorpdfstring{Klasa finalna}{Klasa finalna}}\label{md__r_e_a_d_m_e_autotoc_md19}
+Klasa {\ttfamily Ticket\+History\+Entry} została oznaczona słowem kluczowym {\ttfamily sealed}.
+
+Uniemożliwia to dalsze dziedziczenie tej klasy i zabezpiecza model historii zgłoszeń przed niekontrolowanym rozszerzaniem. Ze względu na prostą i niemutowalną strukturę obiektu dziedziczenie nie jest wymagane.\hypertarget{md__r_e_a_d_m_e_autotoc_md20}{}\doxysection{\texorpdfstring{Autorzy}{Autorzy}}\label{md__r_e_a_d_m_e_autotoc_md20}
 
 \begin{DoxyItemize}
 \item Michał Domżoł
@@ -112,9 +145,9 @@ Metoda:\+
 \item Kamil Dosa
 \item Tomasz Barnaś
 \item Michał Kuśmierek
-\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md18}{}\doxysection{\texorpdfstring{Prowadzący}{Prowadzący}}\label{md__r_e_a_d_m_e_autotoc_md18}
-mgr inż. Arkadiusz Banasik\hypertarget{md__r_e_a_d_m_e_autotoc_md19}{}\doxysection{\texorpdfstring{Semestr}{Semestr}}\label{md__r_e_a_d_m_e_autotoc_md19}
-Semestr letni 2025/\+2026\hypertarget{md__r_e_a_d_m_e_autotoc_md20}{}\doxysection{\texorpdfstring{Informacje}{Informacje}}\label{md__r_e_a_d_m_e_autotoc_md20}
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md21}{}\doxysection{\texorpdfstring{Prowadzący}{Prowadzący}}\label{md__r_e_a_d_m_e_autotoc_md21}
+mgr inż. Arkadiusz Banasik\hypertarget{md__r_e_a_d_m_e_autotoc_md22}{}\doxysection{\texorpdfstring{Semestr}{Semestr}}\label{md__r_e_a_d_m_e_autotoc_md22}
+Semestr letni 2025/\+2026\hypertarget{md__r_e_a_d_m_e_autotoc_md23}{}\doxysection{\texorpdfstring{Informacje}{Informacje}}\label{md__r_e_a_d_m_e_autotoc_md23}
 Projekt wykonany w ramach przedmiotu {\bfseries{Programowanie Obiektowe}}.
 
 WSB Merito.

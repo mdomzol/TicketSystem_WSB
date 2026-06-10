@@ -39,13 +39,16 @@ var NAVTREE =
       ] ],
       [ "Zastosowane mechanizmy OOP", "md__r_e_a_d_m_e.html#autotoc_md13", [
         [ "Abstrakcja", "md__r_e_a_d_m_e.html#autotoc_md14", null ],
-        [ "Dziedziczenie", "md__r_e_a_d_m_e.html#autotoc_md15", null ],
-        [ "Polimorfizm", "md__r_e_a_d_m_e.html#autotoc_md16", null ]
+        [ "Hermetyzacja", "md__r_e_a_d_m_e.html#autotoc_md15", null ],
+        [ "Dziedziczenie", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
+        [ "Polimorfizm", "md__r_e_a_d_m_e.html#autotoc_md17", null ],
+        [ "Interfejsy", "md__r_e_a_d_m_e.html#autotoc_md18", null ],
+        [ "Klasa finalna", "md__r_e_a_d_m_e.html#autotoc_md19", null ]
       ] ],
-      [ "Autorzy", "md__r_e_a_d_m_e.html#autotoc_md17", null ],
-      [ "Prowadzący", "md__r_e_a_d_m_e.html#autotoc_md18", null ],
-      [ "Semestr", "md__r_e_a_d_m_e.html#autotoc_md19", null ],
-      [ "Informacje", "md__r_e_a_d_m_e.html#autotoc_md20", null ]
+      [ "Autorzy", "md__r_e_a_d_m_e.html#autotoc_md20", null ],
+      [ "Prowadzący", "md__r_e_a_d_m_e.html#autotoc_md21", null ],
+      [ "Semestr", "md__r_e_a_d_m_e.html#autotoc_md22", null ],
+      [ "Informacje", "md__r_e_a_d_m_e.html#autotoc_md23", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -74,7 +77,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs.html",
-"namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179a655d20c1ca69519ca647684edbb2db35"
+"namespace_ticket_system_1_1_enums.html#a0a871bbeda39632bb0fd8c284c003f56aea17d5db8c30fa6c16ee1f399a0f1ef9"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';
