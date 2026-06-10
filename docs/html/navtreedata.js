@@ -61,15 +61,20 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs.html",
+"namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179a655d20c1ca69519ca647684edbb2db35"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

@@ -1,0 +1,87 @@
+\doxysection{Ticket\+System.\+Console\+UI.\+Helpers.\+Input\+Helper Class Reference}
+\hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper}{}\label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper}\index{TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}}
+
+
+Klasa pomocnicza odpowiedzialna za walidację i obsługę wejścia użytkownika w konsoli.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_a518a01e3dc5f8e88df47d445a303e130}{Read\+Non\+Empty}} (string prompt)
+\begin{DoxyCompactList}\small\item\em Odczytuje niepustą wartość tekstową od użytkownika. \end{DoxyCompactList}\item 
+static string \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_af7bf89a271671f0b682f2f0ae74e31b1}{Read\+Choice}} (string prompt, params string\+[$\,$]\+ allowed)
+\begin{DoxyCompactList}\small\item\em Odczytuje wybór użytkownika spośród dozwolonych wartości. \end{DoxyCompactList}\item 
+static int \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_aa1a1be1c8ea0175dde2c84df0f32e2ab}{Read\+Int}} (string prompt)
+\begin{DoxyCompactList}\small\item\em Odczytuje liczbę całkowitą od użytkownika. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa pomocnicza odpowiedzialna za walidację i obsługę wejścia użytkownika w konsoli. 
+
+Zapewnia spójny sposób pobierania danych od użytkownika oraz eliminuje powielanie logiki walidacyjnej w panelach UI. 
+
+\label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_doc-func-members}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_af7bf89a271671f0b682f2f0ae74e31b1}\index{TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}!ReadChoice@{ReadChoice}}
+\index{ReadChoice@{ReadChoice}!TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}}
+\doxysubsubsection{\texorpdfstring{ReadChoice()}{ReadChoice()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_af7bf89a271671f0b682f2f0ae74e31b1} 
+string Ticket\+System.\+Console\+UI.\+Helpers.\+Input\+Helper.\+Read\+Choice (\begin{DoxyParamCaption}\item[{string}]{prompt}{, }\item[{params string\+[$\,$]\+}]{allowed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Odczytuje wybór użytkownika spośród dozwolonych wartości. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prompt} & Tekst wyświetlany użytkownikowi.\\
+\hline
+{\em allowed} & Dozwolone wartości wejściowe.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Poprawny wybór użytkownika.
+\end{DoxyReturn}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_aa1a1be1c8ea0175dde2c84df0f32e2ab}\index{TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}!ReadInt@{ReadInt}}
+\index{ReadInt@{ReadInt}!TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}}
+\doxysubsubsection{\texorpdfstring{ReadInt()}{ReadInt()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_aa1a1be1c8ea0175dde2c84df0f32e2ab} 
+int Ticket\+System.\+Console\+UI.\+Helpers.\+Input\+Helper.\+Read\+Int (\begin{DoxyParamCaption}\item[{string}]{prompt}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Odczytuje liczbę całkowitą od użytkownika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prompt} & Tekst wyświetlany użytkownikowi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Poprawna liczba całkowita.
+\end{DoxyReturn}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_a518a01e3dc5f8e88df47d445a303e130}\index{TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}!ReadNonEmpty@{ReadNonEmpty}}
+\index{ReadNonEmpty@{ReadNonEmpty}!TicketSystem.ConsoleUI.Helpers.InputHelper@{TicketSystem.ConsoleUI.Helpers.InputHelper}}
+\doxysubsubsection{\texorpdfstring{ReadNonEmpty()}{ReadNonEmpty()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_input_helper_a518a01e3dc5f8e88df47d445a303e130} 
+string Ticket\+System.\+Console\+UI.\+Helpers.\+Input\+Helper.\+Read\+Non\+Empty (\begin{DoxyParamCaption}\item[{string}]{prompt}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Odczytuje niepustą wartość tekstową od użytkownika. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prompt} & Tekst wyświetlany użytkownikowi.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Niepusty ciąg znaków.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Console\+UI/\+\+Helpers/\+\doxymbox{\hyperlink{_input_helper_8cs}{Input\+Helper.\+cs}}\end{DoxyCompactItemize}

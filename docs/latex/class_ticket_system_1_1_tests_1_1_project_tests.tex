@@ -1,0 +1,152 @@
+\doxysection{Ticket\+System.\+Tests.\+Project\+Tests Class Reference}
+\hypertarget{class_ticket_system_1_1_tests_1_1_project_tests}{}\label{class_ticket_system_1_1_tests_1_1_project_tests}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+
+
+Zestaw scenariuszy testowych oraz opis weryfikacji funkcjonalności systemu \doxylink{namespace_ticket_system}{Ticket\+System}.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_tests_1_1_project_tests_aee13712b7c7fb7ea3848357546fdc586}{Test\+Create\+Ticket}} ()
+\begin{DoxyCompactList}\small\item\em Scenariusz 1:\+ Test tworzenia zgłoszeń (Bug /\+ Feature /\+ Technical). \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_tests_1_1_project_tests_a0fccdf2c08bdf4dc86beeeed11827830}{Test\+Change\+Ticket\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Scenariusz 2:\+ Test zmiany statusu zgłoszenia. \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_tests_1_1_project_tests_a5e773fe4fbcac97232552204dbe98962}{Test\+Polymorphism}} ()
+\begin{DoxyCompactList}\small\item\em Scenariusz 3:\+ Test polimorfizmu (Get\+Estimated\+Resolution\+Time). \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_tests_1_1_project_tests_a1a5928e231d3dac18487191a0104f6ea}{Test\+Exception\+Handling}} ()
+\begin{DoxyCompactList}\small\item\em Scenariusz 4:\+ Test obsługi błędów (Ticket\+Exception). \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_tests_1_1_project_tests_a6572a01ed785f7d31787d917ec191498}{Summary}} ()
+\begin{DoxyCompactList}\small\item\em Podsumowanie testów systemu \doxylink{namespace_ticket_system}{Ticket\+System}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Zestaw scenariuszy testowych oraz opis weryfikacji funkcjonalności systemu \doxylink{namespace_ticket_system}{Ticket\+System}. 
+
+Klasa nie zawiera automatycznych testów jednostkowych. Służy jako dokumentacja scenariuszy testowych wykonanych manualnie w ramach weryfikacji działania systemu.
+
+Testy obejmują warstwy:\+
+\begin{DoxyItemize}
+\item \doxylink{namespace_ticket_system_1_1_models}{Models}
+\item \doxylink{namespace_ticket_system_1_1_services}{Services}
+\item Repository
+\item Polimorfizm (\doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket})
+\end{DoxyItemize}
+
+Testy przeprowadzono poprzez interfejs konsolowy aplikacji. 
+
+Dokumentacja testów manualnych systemu \doxylink{namespace_ticket_system}{Ticket\+System}. 
+
+\label{class_ticket_system_1_1_tests_1_1_project_tests_doc-func-members}
+\Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_a6572a01ed785f7d31787d917ec191498}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}!Summary@{Summary}}
+\index{Summary@{Summary}!TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+\doxysubsubsection{\texorpdfstring{Summary()}{Summary()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_tests_1_1_project_tests_a6572a01ed785f7d31787d917ec191498} 
+void Ticket\+System.\+Tests.\+Project\+Tests.\+Summary (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Podsumowanie testów systemu \doxylink{namespace_ticket_system}{Ticket\+System}. 
+
+Wszystkie kluczowe funkcjonalności systemu zostały przetestowane manualnie:\+
+\begin{DoxyItemize}
+\item tworzenie zgłoszeń
+\item zmiana statusów
+\item polimorfizm
+\item obsługa wyjątków
+\end{DoxyItemize}
+
+Wniosek końcowy:\+ System spełnia założenia projektowe i poprawnie realizuje zasady OOP:\+ enkapsulacja, dziedziczenie, polimorfizm i abstrakcja. \Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_a0fccdf2c08bdf4dc86beeeed11827830}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}!TestChangeTicketStatus@{TestChangeTicketStatus}}
+\index{TestChangeTicketStatus@{TestChangeTicketStatus}!TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+\doxysubsubsection{\texorpdfstring{TestChangeTicketStatus()}{TestChangeTicketStatus()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_tests_1_1_project_tests_a0fccdf2c08bdf4dc86beeeed11827830} 
+void Ticket\+System.\+Tests.\+Project\+Tests.\+Test\+Change\+Ticket\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Scenariusz 2:\+ Test zmiany statusu zgłoszenia. 
+
+Kroki testu:\+
+\begin{DoxyEnumerate}
+\item Pobranie istniejącego zgłoszenia
+\item Wywołanie Change\+Ticket\+Status()
+\item Dodanie komentarza do zmiany
+\end{DoxyEnumerate}
+
+Oczekiwany wynik:\+
+\begin{DoxyItemize}
+\item Status zostaje zmieniony
+\item Historia zgłoszenia zawiera wpis o zmianie
+\item Last\+Action\+By zostaje zaktualizowane 
+\end{DoxyItemize}\Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_aee13712b7c7fb7ea3848357546fdc586}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}!TestCreateTicket@{TestCreateTicket}}
+\index{TestCreateTicket@{TestCreateTicket}!TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+\doxysubsubsection{\texorpdfstring{TestCreateTicket()}{TestCreateTicket()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_tests_1_1_project_tests_aee13712b7c7fb7ea3848357546fdc586} 
+void Ticket\+System.\+Tests.\+Project\+Tests.\+Test\+Create\+Ticket (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Scenariusz 1:\+ Test tworzenia zgłoszeń (Bug /\+ Feature /\+ Technical). 
+
+Kroki testu:\+
+\begin{DoxyEnumerate}
+\item Utworzenie obiektu \doxylink{class_ticket_system_1_1_models_1_1_bug_ticket}{Bug\+Ticket} /\+ \doxylink{class_ticket_system_1_1_models_1_1_feature_request_ticket}{Feature\+Request\+Ticket} /\+ \doxylink{class_ticket_system_1_1_models_1_1_technical_ticket}{Technical\+Ticket}
+\item Przekazanie do \doxylink{class_ticket_system_1_1_services_1_1_ticket_service_ac1a11e675a33aefa86e0d24e72868792}{Ticket\+Service.\+Create\+Ticket()}
+\item Weryfikacja dodania do repozytorium
+\end{DoxyEnumerate}
+
+Oczekiwany wynik:\+
+\begin{DoxyItemize}
+\item \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket} zostaje zapisany w systemie
+\item Status = Nowe
+\item Data utworzenia jest ustawiona poprawnie 
+\end{DoxyItemize}\Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_a1a5928e231d3dac18487191a0104f6ea}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}!TestExceptionHandling@{TestExceptionHandling}}
+\index{TestExceptionHandling@{TestExceptionHandling}!TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+\doxysubsubsection{\texorpdfstring{TestExceptionHandling()}{TestExceptionHandling()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_tests_1_1_project_tests_a1a5928e231d3dac18487191a0104f6ea} 
+void Ticket\+System.\+Tests.\+Project\+Tests.\+Test\+Exception\+Handling (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Scenariusz 4:\+ Test obsługi błędów (Ticket\+Exception). 
+
+Kroki testu:\+
+\begin{DoxyEnumerate}
+\item Próba pobrania nieistniejącego zgłoszenia
+\item Próba zmiany statusu błędnego ID
+\end{DoxyEnumerate}
+
+Oczekiwany wynik:\+
+\begin{DoxyItemize}
+\item Rzucenie wyjątku Ticket\+Exception
+\item System nie przerywa działania aplikacji 
+\end{DoxyItemize}\Hypertarget{class_ticket_system_1_1_tests_1_1_project_tests_a5e773fe4fbcac97232552204dbe98962}\index{TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}!TestPolymorphism@{TestPolymorphism}}
+\index{TestPolymorphism@{TestPolymorphism}!TicketSystem.Tests.ProjectTests@{TicketSystem.Tests.ProjectTests}}
+\doxysubsubsection{\texorpdfstring{TestPolymorphism()}{TestPolymorphism()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_tests_1_1_project_tests_a5e773fe4fbcac97232552204dbe98962} 
+void Ticket\+System.\+Tests.\+Project\+Tests.\+Test\+Polymorphism (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Scenariusz 3:\+ Test polimorfizmu (Get\+Estimated\+Resolution\+Time). 
+
+Kroki testu:\+
+\begin{DoxyEnumerate}
+\item Utworzenie obiektów \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket} różnych typów
+\item Wywołanie metody Get\+Estimated\+Resolution\+Time() na referencji \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}
+\end{DoxyEnumerate}
+
+Oczekiwany wynik:\+
+\begin{DoxyItemize}
+\item \doxylink{class_ticket_system_1_1_models_1_1_bug_ticket}{Bug\+Ticket} → 8 godzin
+\item \doxylink{class_ticket_system_1_1_models_1_1_technical_ticket}{Technical\+Ticket} → 16 godzin
+\item \doxylink{class_ticket_system_1_1_models_1_1_feature_request_ticket}{Feature\+Request\+Ticket} → 40 godzin
+\end{DoxyItemize}
+
+Wniosek:\+ System poprawnie wykorzystuje polimorfizm. 
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Tests/\+\doxymbox{\hyperlink{_project_tests_8cs}{Project\+Tests.\+cs}}\end{DoxyCompactItemize}

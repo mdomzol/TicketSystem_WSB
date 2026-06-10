@@ -149,33 +149,24 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a30d46eeed8dfcb2c8b7de4c7958f405c pro_methods_class_ticket_system_1_1_models_1_1_ticket" id="r_a30d46eeed8dfcb2c8b7de4c7958f405c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a30d46eeed8dfcb2c8b7de4c7958f405c">Ticket</a> (string title, string description)</td></tr>
 <tr class="memdesc:a30d46eeed8dfcb2c8b7de4c7958f405c pro_methods_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor klasy bazowej <a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html" title="Abstrakcyjna klasa bazowa reprezentująca zgłoszenie (Ticket) w systemie.">Ticket</a>. Inicjalizuje podstawowe dane zgłoszenia oraz zapisuje wpis w historii.  <br /></td></tr>
 <tr class="inherit_header properties_class_ticket_system_1_1_models_1_1_ticket"><td colspan="2">Properties inherited from <a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html">TicketSystem.Models.Ticket</a></td></tr>
-<tr class="memitem:a7efac31c4b53f432d061a63d3d789500 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a7efac31c4b53f432d061a63d3d789500"><td class="memItemLeft">
-Guid&#160;</td><td class="memItemRight"><b>Id</b><code> [get]</code></td></tr>
-<tr class="memdesc:a7efac31c4b53f432d061a63d3d789500 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unikalny identyfikator zgłoszenia (GUID). <br /></td></tr>
-<tr class="memitem:a4679e2f1db7ca40080f8238dd51ac802 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a4679e2f1db7ca40080f8238dd51ac802"><td class="memItemLeft">
-int&#160;</td><td class="memItemRight"><b>Number</b><code> [get]</code></td></tr>
-<tr class="memdesc:a4679e2f1db7ca40080f8238dd51ac802 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Czytelny numer zgłoszenia używany w interfejsie użytkownika. <br /></td></tr>
-<tr class="memitem:ac90ea45209e9f0a95e9189f7cea3d8ce properties_class_ticket_system_1_1_models_1_1_ticket" id="r_ac90ea45209e9f0a95e9189f7cea3d8ce"><td class="memItemLeft">
-string&#160;</td><td class="memItemRight"><b>Title</b><code> [get]</code></td></tr>
-<tr class="memdesc:ac90ea45209e9f0a95e9189f7cea3d8ce properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tytuł zgłoszenia. <br /></td></tr>
-<tr class="memitem:abde3780b9d302d1987ee3839c95bcd4b properties_class_ticket_system_1_1_models_1_1_ticket" id="r_abde3780b9d302d1987ee3839c95bcd4b"><td class="memItemLeft">
-string&#160;</td><td class="memItemRight"><b>Description</b><code> [get]</code></td></tr>
-<tr class="memdesc:abde3780b9d302d1987ee3839c95bcd4b properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Szczegółowy opis zgłoszenia. <br /></td></tr>
-<tr class="memitem:a4e9e64bd931c298f0c7cc01355a4a290 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a4e9e64bd931c298f0c7cc01355a4a290"><td class="memItemLeft">
-<a class="el" href="namespace_ticket_system_1_1_enums.html#a0a871bbeda39632bb0fd8c284c003f56">TicketStatus</a>&#160;</td><td class="memItemRight"><b>Status</b><code> [get]</code></td></tr>
-<tr class="memdesc:a4e9e64bd931c298f0c7cc01355a4a290 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualny status zgłoszenia. <br /></td></tr>
-<tr class="memitem:a8aa8aced3aba86b56c0b035f2d1d5b1c properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a8aa8aced3aba86b56c0b035f2d1d5b1c"><td class="memItemLeft">
-<a class="el" href="namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179">TicketPriority</a>&#160;</td><td class="memItemRight"><b>Priority</b><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a8aa8aced3aba86b56c0b035f2d1d5b1c properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Priorytet zgłoszenia (ustalany przez klasy pochodne). <br /></td></tr>
-<tr class="memitem:a17510d8580e6565e8bb3440caec0ee79 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a17510d8580e6565e8bb3440caec0ee79"><td class="memItemLeft">
-DateTime&#160;</td><td class="memItemRight"><b>CreatedAt</b><code> [get]</code></td></tr>
-<tr class="memdesc:a17510d8580e6565e8bb3440caec0ee79 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data utworzenia zgłoszenia. <br /></td></tr>
-<tr class="memitem:a0b597e4501358317ff4a816fb48ca0d9 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a0b597e4501358317ff4a816fb48ca0d9"><td class="memItemLeft">
-string&#160;</td><td class="memItemRight"><b>LastActionBy</b> = &quot;System&quot;<code> [get]</code></td></tr>
-<tr class="memdesc:a0b597e4501358317ff4a816fb48ca0d9 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informacja o ostatniej wykonanej akcji na zgłoszeniu. <br /></td></tr>
-<tr class="memitem:a1e4ddc030edfab04fe7dba007a4d6917 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a1e4ddc030edfab04fe7dba007a4d6917"><td class="memItemLeft">
-List&lt; <a class="el" href="class_ticket_system_1_1_models_1_1_ticket_history_entry.html">TicketHistoryEntry</a> &gt;&#160;</td><td class="memItemRight"><b>History</b> = []<code> [get]</code></td></tr>
-<tr class="memdesc:a1e4ddc030edfab04fe7dba007a4d6917 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Historia zmian i zdarzeń związanych ze zgłoszeniem. <br /></td></tr>
+<tr class="memitem:a7efac31c4b53f432d061a63d3d789500 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a7efac31c4b53f432d061a63d3d789500"><td class="memItemLeft">Guid&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a7efac31c4b53f432d061a63d3d789500">Id</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7efac31c4b53f432d061a63d3d789500 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unikalny identyfikator zgłoszenia (GUID).  <br /></td></tr>
+<tr class="memitem:a4679e2f1db7ca40080f8238dd51ac802 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a4679e2f1db7ca40080f8238dd51ac802"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a4679e2f1db7ca40080f8238dd51ac802">Number</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4679e2f1db7ca40080f8238dd51ac802 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Czytelny numer zgłoszenia używany w interfejsie użytkownika.  <br /></td></tr>
+<tr class="memitem:ac90ea45209e9f0a95e9189f7cea3d8ce properties_class_ticket_system_1_1_models_1_1_ticket" id="r_ac90ea45209e9f0a95e9189f7cea3d8ce"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#ac90ea45209e9f0a95e9189f7cea3d8ce">Title</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:ac90ea45209e9f0a95e9189f7cea3d8ce properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tytuł zgłoszenia.  <br /></td></tr>
+<tr class="memitem:abde3780b9d302d1987ee3839c95bcd4b properties_class_ticket_system_1_1_models_1_1_ticket" id="r_abde3780b9d302d1987ee3839c95bcd4b"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#abde3780b9d302d1987ee3839c95bcd4b">Description</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:abde3780b9d302d1987ee3839c95bcd4b properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Szczegółowy opis zgłoszenia.  <br /></td></tr>
+<tr class="memitem:a4e9e64bd931c298f0c7cc01355a4a290 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a4e9e64bd931c298f0c7cc01355a4a290"><td class="memItemLeft"><a class="el" href="namespace_ticket_system_1_1_enums.html#a0a871bbeda39632bb0fd8c284c003f56">TicketStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a4e9e64bd931c298f0c7cc01355a4a290">Status</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a4e9e64bd931c298f0c7cc01355a4a290 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualny status zgłoszenia.  <br /></td></tr>
+<tr class="memitem:a8aa8aced3aba86b56c0b035f2d1d5b1c properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a8aa8aced3aba86b56c0b035f2d1d5b1c"><td class="memItemLeft"><a class="el" href="namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179">TicketPriority</a>&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a8aa8aced3aba86b56c0b035f2d1d5b1c">Priority</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a8aa8aced3aba86b56c0b035f2d1d5b1c properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Priorytet zgłoszenia (ustalany przez klasy pochodne).  <br /></td></tr>
+<tr class="memitem:a17510d8580e6565e8bb3440caec0ee79 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a17510d8580e6565e8bb3440caec0ee79"><td class="memItemLeft">DateTime&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a17510d8580e6565e8bb3440caec0ee79">CreatedAt</a><code> [get]</code></td></tr>
+<tr class="memdesc:a17510d8580e6565e8bb3440caec0ee79 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data utworzenia zgłoszenia.  <br /></td></tr>
+<tr class="memitem:a0b597e4501358317ff4a816fb48ca0d9 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a0b597e4501358317ff4a816fb48ca0d9"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a0b597e4501358317ff4a816fb48ca0d9">LastActionBy</a> = &quot;System&quot;<code> [get, private set]</code></td></tr>
+<tr class="memdesc:a0b597e4501358317ff4a816fb48ca0d9 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informacja o ostatniej wykonanej akcji na zgłoszeniu.  <br /></td></tr>
+<tr class="memitem:a1e4ddc030edfab04fe7dba007a4d6917 properties_class_ticket_system_1_1_models_1_1_ticket" id="r_a1e4ddc030edfab04fe7dba007a4d6917"><td class="memItemLeft">List&lt; <a class="el" href="class_ticket_system_1_1_models_1_1_ticket_history_entry.html">TicketHistoryEntry</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="class_ticket_system_1_1_models_1_1_ticket.html#a1e4ddc030edfab04fe7dba007a4d6917">History</a> = []<code> [get]</code></td></tr>
+<tr class="memdesc:a1e4ddc030edfab04fe7dba007a4d6917 properties_class_ticket_system_1_1_models_1_1_ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Historia zmian i zdarzeń związanych ze zgłoszeniem.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Reprezentuje zgłoszenie typu Feature Request (prośba o nową funkcjonalność). </p>
@@ -249,7 +240,7 @@ List&lt; <a class="el" href="class_ticket_system_1_1_models_1_1_ticket_history_e
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>TicketSystem/Models/<b>FeatureRequestTicket.cs</b></li>
+<li>TicketSystem/Models/<a class="el" href="_feature_request_ticket_8cs.html">FeatureRequestTicket.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

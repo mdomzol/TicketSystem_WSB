@@ -3,6 +3,7 @@ var class_ticket_system_1_1_models_1_1_ticket =
     [ "Ticket", "class_ticket_system_1_1_models_1_1_ticket.html#a30d46eeed8dfcb2c8b7de4c7958f405c", null ],
     [ "ChangeStatus", "class_ticket_system_1_1_models_1_1_ticket.html#ac900f332fd12fe79cf5bb0aa1397e465", null ],
     [ "GetEstimatedResolutionTime", "class_ticket_system_1_1_models_1_1_ticket.html#a4b0a03ad2012b67c39f387d8883c734e", null ],
+    [ "_counter", "class_ticket_system_1_1_models_1_1_ticket.html#aef5a27774a89c33edd9d72b2a1064008", null ],
     [ "CreatedAt", "class_ticket_system_1_1_models_1_1_ticket.html#a17510d8580e6565e8bb3440caec0ee79", null ],
     [ "Description", "class_ticket_system_1_1_models_1_1_ticket.html#abde3780b9d302d1987ee3839c95bcd4b", null ],
     [ "History", "class_ticket_system_1_1_models_1_1_ticket.html#a1e4ddc030edfab04fe7dba007a4d6917", null ],

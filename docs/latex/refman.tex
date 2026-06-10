@@ -199,22 +199,21 @@
 % End of preamble, now comes the document contents
 %===== C O N T E N T S =====
 \begin{document}
-  \raggedbottom
-  % Titlepage & ToC
-    % To avoid duplicate page anchors due to reuse of same numbers for
-    % the index (be it as roman numbers)
-    \hypersetup{pageanchor=false,
-                bookmarksnumbered=true,
-                pdfencoding=unicode
-               }
-  \pagenumbering{alph}
-% ===== CUSTOM TITLE PAGE (PROJECT INFO) =====
+\raggedbottom
+
+% =========================
+% TITLE PAGE (FIRST PAGE)
+% =========================
+\hypersetup{pageanchor=false}
+
+\pagenumbering{alph}
+
 \begin{titlepage}
 \centering
 
 \vspace*{2cm}
 
-{\LARGE \textbf{TicketSystem}}\\[1.5cm]
+{\LARGE \textbf{TicketSystem}}\\[1.2cm]
 
 {\large Projekt wykonany w ramach przedmiotu}\\[0.3cm]
 {\Large Programowanie Obiektowe}\\[1.5cm]
@@ -237,21 +236,33 @@ letni 2025/2026
 
 \end{titlepage}
 
-% ===== TABLE OF CONTENTS =====
+\cleardoublepage
+
+% =========================
+% TABLE OF CONTENTS
+% =========================
 \pagenumbering{roman}
 \tableofcontents
+\cleardoublepage
+
+% =========================
+% MAIN CONTENT
+% =========================
 \pagenumbering{arabic}
-  \pagenumbering{arabic}
-  % re-enable anchors again
-  \hypersetup{pageanchor=true}
-%--- Begin generated contents ---
+\hypersetup{pageanchor=true}
+
+% --- Generated content ---
 \input{md__r_e_a_d_m_e}
+
 \chapter{Namespace Index}
 \input{namespaces}
+
 \chapter{Hierarchical Index}
 \input{hierarchy}
+
 \chapter{Class Index}
 \input{annotated}
+
 \chapter{Namespace Documentation}
 \input{namespace_ticket_system}
 \input{namespace_ticket_system_1_1_console_u_i}
@@ -263,6 +274,7 @@ letni 2025/2026
 \input{namespace_ticket_system_1_1_models}
 \input{namespace_ticket_system_1_1_repositories}
 \input{namespace_ticket_system_1_1_services}
+
 \chapter{Class Documentation}
 \input{class_ticket_system_1_1_console_u_i_1_1_admin_panel}
 \input{class_ticket_system_1_1_models_1_1_bug_ticket}
@@ -277,13 +289,17 @@ letni 2025/2026
 \input{class_ticket_system_1_1_exceptions_1_1_ticket_exception}
 \input{class_ticket_system_1_1_models_1_1_ticket_history_entry}
 \input{class_ticket_system_1_1_services_1_1_ticket_service}
-%--- End generated contents ---
-% Index
-  \backmatter
-  \newpage
-  \phantomsection
-  \clearemptydoublepage
-  \addcontentsline{toc}{chapter}{\indexname}
-  \printindex
-% Required for some languages (in combination with latexdocumentpre from the header)
+
+\chapter{Test Scenarios}
+\input{class_ticket_system_1_1_tests_1_1_project_tests}
+
+% =========================
+% INDEX
+% =========================
+\backmatter
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\indexname}
+\printindex
+
 \end{document}

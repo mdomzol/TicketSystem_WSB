@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['featurerequestticket_0',['FeatureRequestTicket',['../class_ticket_system_1_1_models_1_1_feature_request_ticket.html#a975186604c62c8a7d1c1ffba6fc25a3b',1,'TicketSystem::Models::FeatureRequestTicket']]]
+  ['error_0',['Error',['../class_ticket_system_1_1_console_u_i_1_1_console_messages.html#abeab7914e4aec858bb0af8fa4a30aec4',1,'TicketSystem::ConsoleUI::ConsoleMessages']]]
 ];

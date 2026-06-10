@@ -9,5 +9,6 @@ var searchData=
   ['ticketsystem_3a_3ainterfaces_6',['Interfaces',['../namespace_ticket_system_1_1_interfaces.html',1,'TicketSystem']]],
   ['ticketsystem_3a_3amodels_7',['Models',['../namespace_ticket_system_1_1_models.html',1,'TicketSystem']]],
   ['ticketsystem_3a_3arepositories_8',['Repositories',['../namespace_ticket_system_1_1_repositories.html',1,'TicketSystem']]],
-  ['ticketsystem_3a_3aservices_9',['Services',['../namespace_ticket_system_1_1_services.html',1,'TicketSystem']]]
+  ['ticketsystem_3a_3aservices_9',['Services',['../namespace_ticket_system_1_1_services.html',1,'TicketSystem']]],
+  ['ticketsystem_3a_3atests_10',['Tests',['../namespace_ticket_system_1_1_tests.html',1,'TicketSystem']]]
 ];

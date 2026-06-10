@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['id_0',['Id',['../class_ticket_system_1_1_models_1_1_ticket.html#a7efac31c4b53f432d061a63d3d789500',1,'TicketSystem::Models::Ticket']]],
-  ['informacje_1',['Informacje',['../md__r_e_a_d_m_e.html#autotoc_md20',1,'']]],
-  ['inmemoryticketrepository_2',['InMemoryTicketRepository',['../class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.html',1,'TicketSystem::Repositories']]],
-  ['iticketrepository_3',['ITicketRepository',['../interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.html',1,'TicketSystem::Interfaces']]],
-  ['iticketservice_4',['ITicketService',['../interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.html',1,'TicketSystem::Interfaces']]]
+  ['główne_20funkcjonalności_0',['Główne funkcjonalności',['../md__r_e_a_d_m_e.html#autotoc_md3',1,'']]],
+  ['getall_1',['GetAll',['../interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.html#afdadcd4956ecc2831d703e0101894931',1,'TicketSystem.Interfaces.ITicketRepository.GetAll()'],['../class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.html#ac1673b5b9a90c6a881c74d14e7c87883',1,'TicketSystem.Repositories.InMemoryTicketRepository.GetAll()']]],
+  ['getalltickets_2',['GetAllTickets',['../interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.html#a7a44fde11b93cdf7b696ef024069d685',1,'TicketSystem.Interfaces.ITicketService.GetAllTickets()'],['../class_ticket_system_1_1_services_1_1_ticket_service.html#ab8b50f1437dc09a6921aa639f22fecb6',1,'TicketSystem.Services.TicketService.GetAllTickets()']]],
+  ['getbyid_3',['GetById',['../interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.html#a7ea039c326e9cb03c53dac3bb614e2e3',1,'TicketSystem.Interfaces.ITicketRepository.GetById()'],['../class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.html#a24ffa7216b6e1000d085163577ca3587',1,'TicketSystem.Repositories.InMemoryTicketRepository.GetById()']]],
+  ['getestimatedresolutiontime_4',['GetEstimatedResolutionTime',['../class_ticket_system_1_1_models_1_1_bug_ticket.html#a27089dfeab7cc9a1a12465f1cd2e1b6f',1,'TicketSystem.Models.BugTicket.GetEstimatedResolutionTime()'],['../class_ticket_system_1_1_models_1_1_feature_request_ticket.html#af67be6b0457d4b3bd9c7f162929d4d2a',1,'TicketSystem.Models.FeatureRequestTicket.GetEstimatedResolutionTime()'],['../class_ticket_system_1_1_models_1_1_technical_ticket.html#af7aed5de8a5e4c7f57cd1371e947845d',1,'TicketSystem.Models.TechnicalTicket.GetEstimatedResolutionTime()'],['../class_ticket_system_1_1_models_1_1_ticket.html#a4b0a03ad2012b67c39f387d8883c734e',1,'TicketSystem.Models.Ticket.GetEstimatedResolutionTime()']]]
 ];

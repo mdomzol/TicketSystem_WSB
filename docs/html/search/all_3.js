@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['description_0',['Description',['../class_ticket_system_1_1_models_1_1_ticket.html#abde3780b9d302d1987ee3839c95bcd4b',1,'TicketSystem::Models::Ticket']]],
-  ['dziedziczenie_1',['Dziedziczenie',['../md__r_e_a_d_m_e.html#autotoc_md15',1,'']]]
+  ['bugticket_0',['BugTicket',['../class_ticket_system_1_1_models_1_1_bug_ticket.html',1,'TicketSystem.Models.BugTicket'],['../class_ticket_system_1_1_models_1_1_bug_ticket.html#a730ac13343db04cc7ab3d2e558b2dca8',1,'TicketSystem.Models.BugTicket.BugTicket()']]],
+  ['bugticket_2ecs_1',['BugTicket.cs',['../_bug_ticket_8cs.html',1,'']]]
 ];

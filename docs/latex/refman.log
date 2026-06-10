@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.7)  7 JUN 2026 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.7)  10 JUN 2026 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,22 +965,19 @@ Package hyperref Info: Link coloring ON on input line 201.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \Etoc@tf=\read4
-Package hyperref Info: Option `pageanchor' set `false' on input line 209.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 209.
-
-Package hyperref Info: Option `unicode' set `true' on input line 209.
+Package hyperref Info: Option `pageanchor' set `false' on input line 207.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 217.
+(Font)              scaled to size 15.55188pt on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 217.
+(Font)              scaled to size 15.55188pt on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 219.
+(Font)              scaled to size 10.79993pt on input line 218.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 220.
+(Font)              scaled to size 12.9599pt on input line 219.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 222.
+(Font)              scaled to size 8.99994pt on input line 221.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 236.
+(Font)              scaled to size 8.09995pt on input line 235.
  [1
 
 
@@ -989,32 +986,34 @@ o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 \tf@toc=\write6
 \openout6 = `refman.toc'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 243
+LaTeX Font Info:    Trying to load font information for U+msa on input line 246
 .
 
 (C:\Users\domzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 243
+LaTeX Font Info:    Trying to load font information for U+msb on input line 246
 .
 
 (C:\Users\domzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 24
-3.
+6.
 
 (C:\Users\domzo\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 243.
+(Font)              scaled to size 6.29996pt on input line 246.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 243.
+(Font)              scaled to size 6.29996pt on input line 246.
 
-[1] [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 246.
- (md__r_e_a_d_m_e.tex [1]
+[1
+
+] [2] [3] [4]
+Package hyperref Info: Option `pageanchor' set `true' on input line 252.
+ (md__r_e_a_d_m_e.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -1040,7 +1039,8 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 45.
 
-[2
+[1
+
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 50
@@ -1048,108 +1048,141 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 50
  (C:\Users\domzo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-[3]) [4]
+[2]) [3]
 Chapter 2.
-(namespaces.tex)
+(namespaces.tex
+
+LaTeX Warning: Reference `namespace_ticket_system_1_1_tests' on page 4 undefine
+d on input line 13.
+
+)
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 251.
+ine 260.
+
+[4
+
+]
+Chapter 3.
+(hierarchy.tex
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_helpe
+r' on page 5 undefined on input line 5.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_messa
+ges' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_data_seeder_1_1_fake_data_see
+der' on page 5 undefined on input line 10.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_i
+nput_helper' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_t
+icket_console_printer' on page 5 undefined on input line 28.
+
+)
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 263.
 
 [5
 
 ]
-Chapter 3.
-(hierarchy.tex)
+Chapter 4.
+(annotated.tex
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_helpe
+r' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_console_messa
+ges' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_data_seeder_1_1_fake_data_see
+der' on page 6 undefined on input line 8.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_i
+nput_helper' on page 6 undefined on input line 11.
+
+
+LaTeX Warning: Reference `class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_t
+icket_console_printer' on page 6 undefined on input line 18.
+
+)
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 253.
+ine 266.
 
 [6
-
-]
-Chapter 4.
-(annotated.tex)
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 255.
-
-[7
 
 ]
 Chapter 5.
 (namespace_ticket_system.tex) (namespace_ticket_system_1_1_console_u_i.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 7.
+(Font)              scaled to size 8.09995pt on input line 12.
 )
 (namespace_ticket_system_1_1_console_u_i_1_1_helpers.tex)
-(namespace_ticket_system_1_1_data_seeder.tex)
-(namespace_ticket_system_1_1_enums.tex
+(namespace_ticket_system_1_1_data_seeder.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 17.
+ine 7.
 
-[8
+[7
 
-]
+]) (namespace_ticket_system_1_1_enums.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 26.
-) (namespace_ticket_system_1_1_exceptions.tex)
-(namespace_ticket_system_1_1_interfaces.tex)
-(namespace_ticket_system_1_1_models.tex [9])
+)
+(namespace_ticket_system_1_1_exceptions.tex)
+(namespace_ticket_system_1_1_interfaces.tex [8])
+(namespace_ticket_system_1_1_models.tex)
 (namespace_ticket_system_1_1_repositories.tex)
-(namespace_ticket_system_1_1_services.tex) [10]
+(namespace_ticket_system_1_1_services.tex) [9]
 Chapter 6.
 (class_ticket_system_1_1_console_u_i_1_1_admin_panel.tex
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 32.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 42.
-)
-(class_ticket_system_1_1_models_1_1_bug_ticket.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_models_1_1_bug_tic
-ket.eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 3852 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_models_1_1_bug_tic
-ket-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:16
-(epstopdf)                    size: 6061 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_models_1_1_bug_ticket-eps-converted-to.pdf class_ticket_system_1_1_models_1
-_1_bug_ticket.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_models_1_1_bug_ticket-eps-converted-to.pdf>
-<class_ticket_system_1_1_models_1_1_bug_ticket-eps-converted-to.pdf, id=830, 50
-1.875pt x 204.765pt>
-File: class_ticket_system_1_1_models_1_1_bug_ticket-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use class_ticket_system_1_1_models_1_1_bug_ticket-eps-converted-to.pdf>
-Package pdftex.def Info: class_ticket_system_1_1_models_1_1_bug_ticket-eps-conv
-erted-to.pdf  used on input line 11.
-(pdftex.def)             Requested size: 139.47488pt x 56.9055pt.
+(Font)              scaled to size 8.99994pt on input line 46.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 14.
+ine 75.
 
-[11
+[10
 
-] [12]
+]) (class_ticket_system_1_1_models_1_1_bug_ticket.tex <./class_ticket_system_1_
+1_models_1_1_bug_ticket.pdf>
+<class_ticket_system_1_1_models_1_1_bug_ticket.pdf, id=1115, 501.875pt x 204.76
+5pt>
+File: class_ticket_system_1_1_models_1_1_bug_ticket.pdf Graphic file (type pdf)
+
+<use class_ticket_system_1_1_models_1_1_bug_ticket.pdf>
+Package pdftex.def Info: class_ticket_system_1_1_models_1_1_bug_ticket.pdf  use
+d on input line 11.
+(pdftex.def)             Requested size: 139.47488pt x 56.9055pt.
+ [11]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 99.
 
@@ -1157,98 +1190,60 @@ Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
-) (class_ticket_system_1_1_console_u_i_1_1_client_panel.tex [13])
-(class_ticket_system_1_1_models_1_1_feature_request_ticket.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_models_1_1_feature
-_request_ticket.eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 3874 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_models_1_1_feature
-_request_ticket-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:17
-(epstopdf)                    size: 6321 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_models_1_1_feature_request_ticket-eps-converted-to.pdf class_ticket_system_
-1_1_models_1_1_feature_request_ticket.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_models_1_1_feature_request_ticket-eps-converted-to.
-pdf>
-<class_ticket_system_1_1_models_1_1_feature_request_ticket-eps-converted-to.pdf
-, id=909, 501.875pt x 153.57375pt>
-File: class_ticket_system_1_1_models_1_1_feature_request_ticket-eps-converted-t
-o.pdf Graphic file (type pdf)
-<use class_ticket_system_1_1_models_1_1_feature_request_ticket-eps-converted-to
-.pdf>
+) (class_ticket_system_1_1_console_u_i_1_1_client_panel.tex [12])
+(class_ticket_system_1_1_models_1_1_feature_request_ticket.tex <./class_ticket_
+system_1_1_models_1_1_feature_request_ticket.pdf>
+<class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf, id=1225, 501.87
+5pt x 153.57375pt>
+File: class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf Graphic fil
+e (type pdf)
+<use class_ticket_system_1_1_models_1_1_feature_request_ticket.pdf>
 Package pdftex.def Info: class_ticket_system_1_1_models_1_1_feature_request_tic
-ket-eps-converted-to.pdf  used on input line 11.
+ket.pdf  used on input line 11.
 (pdftex.def)             Requested size: 185.96652pt x 56.9055pt.
- [14]
+ [13] [14]
 Underfull \hbox (badness 10000) detected at line 97
 [][][]
  []
 
-) (class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_repositories_1_1_i
-n_memory_ticket_repository.eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 3924 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_repositories_1_1_i
-n_memory_ticket_repository-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:18
-(epstopdf)                    size: 6207 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_repositories_1_1_in_memory_ticket_repository-eps-converted-to.pdf class_tic
-ket_system_1_1_repositories_1_1_in_memory_ticket_repository.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository-eps-co
-nverted-to.pdf>
-<class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository-eps-conve
-rted-to.pdf, id=955, 501.875pt x 126.4725pt>
-File: class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository-eps-
-converted-to.pdf Graphic file (type pdf)
-<use class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository-eps-c
-onverted-to.pdf>
+) (class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.tex <./
+class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf>
+<class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf, id=1
+304, 501.875pt x 126.4725pt>
+File: class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf 
+Graphic file (type pdf)
+<use class_ticket_system_1_1_repositories_1_1_in_memory_ticket_repository.pdf>
 Package pdftex.def Info: class_ticket_system_1_1_repositories_1_1_in_memory_tic
-ket_repository-eps-converted-to.pdf  used on input line 11.
+ket_repository.pdf  used on input line 11.
 (pdftex.def)             Requested size: 225.81868pt x 56.9055pt.
- [15]
-Underfull \hbox (badness 10000) detected at line 64
+
+[15]
+Underfull \hbox (badness 10000) detected at line 69
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 86
+Underfull \hbox (badness 10000) detected at line 91
 [][][]
  []
 
-) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.tex [16]
-Package epstopdf Info: Source file: <interface_ticket_system_1_1_interfaces_1_1
-_i_ticket_repository.eps>
-(epstopdf)                    date: 2026-06-07 22:03:08
-(epstopdf)                    size: 3924 bytes
-(epstopdf)             Output file: <interface_ticket_system_1_1_interfaces_1_1
-_i_ticket_repository-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:19
-(epstopdf)                    size: 6204 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=interface_ticket_sys
-tem_1_1_interfaces_1_1_i_ticket_repository-eps-converted-to.pdf interface_ticke
-t_system_1_1_interfaces_1_1_i_ticket_repository.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository-eps-converte
-d-to.pdf>
-<interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository-eps-converted-t
-o.pdf, id=1020, 501.875pt x 126.4725pt>
-File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository-eps-conver
-ted-to.pdf Graphic file (type pdf)
-<use interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository-eps-convert
-ed-to.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\T1/pcr/m/n/8 readonly List$\OML/cmm/m/it/8 <$[]$>$ \T1/pcr/m/n/8 Ticket[]Syste
+m.[]Repositories.[]In[]Memory[]Ticket[]Repository.[]_[]tickets = [][$ $][]
+ []
+
+) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.tex <./interf
+ace_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf>
+<interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf, id=1364, 5
+01.875pt x 126.4725pt>
+File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf Graphi
+c file (type pdf)
+<use interface_ticket_system_1_1_interfaces_1_1_i_ticket_repository.pdf>
 Package pdftex.def Info: interface_ticket_system_1_1_interfaces_1_1_i_ticket_re
-pository-eps-converted-to.pdf  used on input line 11.
+pository.pdf  used on input line 11.
 (pdftex.def)             Requested size: 225.81868pt x 56.9055pt.
-
+ [16]
 Underfull \hbox (badness 10000) detected at line 71
 [][][]
  []
@@ -1258,35 +1253,19 @@ Underfull \hbox (badness 10000) detected at line 93
 [][][]
  []
 
-) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.tex
-Package epstopdf Info: Source file: <interface_ticket_system_1_1_interfaces_1_1
-_i_ticket_service.eps>
-(epstopdf)                    date: 2026-06-07 22:03:08
-(epstopdf)                    size: 3888 bytes
-(epstopdf)             Output file: <interface_ticket_system_1_1_interfaces_1_1
-_i_ticket_service-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:20
-(epstopdf)                    size: 5829 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=interface_ticket_sys
-tem_1_1_interfaces_1_1_i_ticket_service-eps-converted-to.pdf interface_ticket_s
-ystem_1_1_interfaces_1_1_i_ticket_service.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./interface_ticket_system_1_1_interfaces_1_1_i_ticket_service-eps-converted-t
-o.pdf>
-<interface_ticket_system_1_1_interfaces_1_1_i_ticket_service-eps-converted-to.p
-df, id=1066, 501.875pt x 169.63374pt>
-File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_service-eps-converted
--to.pdf Graphic file (type pdf)
-<use interface_ticket_system_1_1_interfaces_1_1_i_ticket_service-eps-converted-
-to.pdf>
+) (interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.tex <./interface
+_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf>
+<interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf, id=1428, 501.
+875pt x 169.63374pt>
+File: interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf Graphic f
+ile (type pdf)
+<use interface_ticket_system_1_1_interfaces_1_1_i_ticket_service.pdf>
 Package pdftex.def Info: interface_ticket_system_1_1_interfaces_1_1_i_ticket_se
-rvice-eps-converted-to.pdf  used on input line 11.
+rvice.pdf  used on input line 11.
 (pdftex.def)             Requested size: 168.35315pt x 56.9055pt.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 39.
-
-[18]
+ [18]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -1307,157 +1286,217 @@ Underfull \hbox (badness 10000) detected at line 87
  []
 
 ) (class_ticket_system_1_1_console_u_i_1_1_menu_service.tex [19])
-(class_ticket_system_1_1_models_1_1_technical_ticket.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_models_1_1_technic
-al_ticket.eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 3864 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_models_1_1_technic
-al_ticket-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:22
-(epstopdf)                    size: 5961 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_models_1_1_technical_ticket-eps-converted-to.pdf class_ticket_system_1_1_mo
-dels_1_1_technical_ticket.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_models_1_1_technical_ticket-eps-converted-to.pdf>
-<class_ticket_system_1_1_models_1_1_technical_ticket-eps-converted-to.pdf, id=1
-128, 501.875pt x 174.6525pt>
-File: class_ticket_system_1_1_models_1_1_technical_ticket-eps-converted-to.pdf 
-Graphic file (type pdf)
-<use class_ticket_system_1_1_models_1_1_technical_ticket-eps-converted-to.pdf>
-Package pdftex.def Info: class_ticket_system_1_1_models_1_1_technical_ticket-ep
-s-converted-to.pdf  used on input line 11.
+(class_ticket_system_1_1_models_1_1_technical_ticket.tex <./class_ticket_system
+_1_1_models_1_1_technical_ticket.pdf>
+<class_ticket_system_1_1_models_1_1_technical_ticket.pdf, id=1506, 501.875pt x 
+174.6525pt>
+File: class_ticket_system_1_1_models_1_1_technical_ticket.pdf Graphic file (typ
+e pdf)
+<use class_ticket_system_1_1_models_1_1_technical_ticket.pdf>
+Package pdftex.def Info: class_ticket_system_1_1_models_1_1_technical_ticket.pd
+f  used on input line 11.
 (pdftex.def)             Requested size: 163.52097pt x 56.9055pt.
- [20]
+ [20] [21]
 Underfull \hbox (badness 10000) detected at line 97
 [][][]
  []
 
-) (class_ticket_system_1_1_models_1_1_ticket.tex [21]
-Package epstopdf Info: Source file: <class_ticket_system_1_1_models_1_1_ticket.
-eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 4161 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_models_1_1_ticket-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:23
-(epstopdf)                    size: 7022 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_models_1_1_ticket-eps-converted-to.pdf class_ticket_system_1_1_models_1_1_t
-icket.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_models_1_1_ticket-eps-converted-to.pdf>
-<class_ticket_system_1_1_models_1_1_ticket-eps-converted-to.pdf, id=1185, 501.8
-75pt x 51.19125pt>
-File: class_ticket_system_1_1_models_1_1_ticket-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use class_ticket_system_1_1_models_1_1_ticket-eps-converted-to.pdf>
-Package pdftex.def Info: class_ticket_system_1_1_models_1_1_ticket-eps-converte
-d-to.pdf  used on input line 11.
+) (class_ticket_system_1_1_models_1_1_ticket.tex <./class_ticket_system_1_1_mod
+els_1_1_ticket.pdf>
+<class_ticket_system_1_1_models_1_1_ticket.pdf, id=1587, 501.875pt x 51.19125pt
+>
+File: class_ticket_system_1_1_models_1_1_ticket.pdf Graphic file (type pdf)
+<use class_ticket_system_1_1_models_1_1_ticket.pdf>
+Package pdftex.def Info: class_ticket_system_1_1_models_1_1_ticket.pdf  used on
+ input line 11.
 (pdftex.def)             Requested size: 396.0021pt x 40.38939pt.
- [22]
-Underfull \hbox (badness 10000) detected at line 125
+ [22] [23]
+Underfull \hbox (badness 10000) detected at line 121
 [][][]
  []
 
-) (class_ticket_system_1_1_exceptions_1_1_ticket_exception.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_exceptions_1_1_tic
-ket_exception.eps>
-(epstopdf)                    date: 2026-06-07 22:03:08
-(epstopdf)                    size: 3838 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_exceptions_1_1_tic
-ket_exception-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:24
-(epstopdf)                    size: 5806 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_exceptions_1_1_ticket_exception-eps-converted-to.pdf class_ticket_system_1_
-1_exceptions_1_1_ticket_exception.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_exceptions_1_1_ticket_exception-eps-converted-to.pd
-f>
-<class_ticket_system_1_1_exceptions_1_1_ticket_exception-eps-converted-to.pdf, 
-id=1238, 501.875pt x 160.6pt>
-File: class_ticket_system_1_1_exceptions_1_1_ticket_exception-eps-converted-to.
-pdf Graphic file (type pdf)
-<use class_ticket_system_1_1_exceptions_1_1_ticket_exception-eps-converted-to.p
-df>
+) (class_ticket_system_1_1_exceptions_1_1_ticket_exception.tex [24] <./class_ti
+cket_system_1_1_exceptions_1_1_ticket_exception.pdf>
+<class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf, id=1675, 501.875p
+t x 160.6pt>
+File: class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf Graphic file 
+(type pdf)
+<use class_ticket_system_1_1_exceptions_1_1_ticket_exception.pdf>
 Package pdftex.def Info: class_ticket_system_1_1_exceptions_1_1_ticket_exceptio
-n-eps-converted-to.pdf  used on input line 11.
+n.pdf  used on input line 11.
 (pdftex.def)             Requested size: 177.82608pt x 56.9055pt.
- [23])
-(class_ticket_system_1_1_models_1_1_ticket_history_entry.tex [24])
-(class_ticket_system_1_1_services_1_1_ticket_service.tex
-Package epstopdf Info: Source file: <class_ticket_system_1_1_services_1_1_ticke
-t_service.eps>
-(epstopdf)                    date: 2026-06-07 22:03:09
-(epstopdf)                    size: 3888 bytes
-(epstopdf)             Output file: <class_ticket_system_1_1_services_1_1_ticke
-t_service-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-06-07 22:03:25
-(epstopdf)                    size: 5831 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=class_ticket_system_
-1_1_services_1_1_ticket_service-eps-converted-to.pdf class_ticket_system_1_1_se
-rvices_1_1_ticket_service.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
- <./class_ticket_system_1_1_services_1_1_ticket_service-eps-converted-to.pdf>
-<class_ticket_system_1_1_services_1_1_ticket_service-eps-converted-to.pdf, id=1
-274, 501.875pt x 169.63374pt>
-File: class_ticket_system_1_1_services_1_1_ticket_service-eps-converted-to.pdf 
-Graphic file (type pdf)
-<use class_ticket_system_1_1_services_1_1_ticket_service-eps-converted-to.pdf>
-Package pdftex.def Info: class_ticket_system_1_1_services_1_1_ticket_service-ep
-s-converted-to.pdf  used on input line 11.
+)
+(class_ticket_system_1_1_models_1_1_ticket_history_entry.tex [25])
+(class_ticket_system_1_1_services_1_1_ticket_service.tex <./class_ticket_system
+_1_1_services_1_1_ticket_service.pdf>
+<class_ticket_system_1_1_services_1_1_ticket_service.pdf, id=1712, 501.875pt x 
+169.63374pt>
+File: class_ticket_system_1_1_services_1_1_ticket_service.pdf Graphic file (typ
+e pdf)
+<use class_ticket_system_1_1_services_1_1_ticket_service.pdf>
+Package pdftex.def Info: class_ticket_system_1_1_services_1_1_ticket_service.pd
+f  used on input line 11.
 (pdftex.def)             Requested size: 168.35315pt x 56.9055pt.
- [25]
-Overfull \hbox (1.47571pt too wide) in paragraph at lines 73--73
+ [26]
+Overfull \hbox (1.47571pt too wide) in paragraph at lines 78--78
 []\T1/phv/m/sl/10 ticket[] 
  []
 
 
-Overfull \hbox (1.47571pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.47571pt too wide) in paragraph at lines 78--78
 []\T1/phv/m/sl/10 ticket[] 
  []
 
-
-Underfull \hbox (badness 10000) detected at line 112
+[27]
+Underfull \hbox (badness 10000) detected at line 117
 [][][]
  []
 
-) [26]
+) [28]
+Chapter 7.
+(class_ticket_system_1_1_tests_1_1_project_tests.tex
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 58.
+
+[29
+
+] [30]
+
+Package textcomp Warning: Symbol \textrightarrow not provided by
+(textcomp)                font family phv in TS1 encoding.
+(textcomp)                Default family used instead on input line 143.
+
+
+Package textcomp Warning: Symbol \textrightarrow not provided by
+(textcomp)                font family phv in TS1 encoding.
+(textcomp)                Default family used instead on input line 144.
+
+
+Package textcomp Warning: Symbol \textrightarrow not provided by
+(textcomp)                font family phv in TS1 encoding.
+(textcomp)                Default family used instead on input line 145.
+
+) [31]
 No file refman.ind.
 (refman.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 909BD1456C95F484901421EACE076A9D;25497.
+(rerunfilecheck)             Checksum: C7A1A67CDC0635BCAECED4DA6C60CC18;27919.
  ) 
 Here is how much of TeX's memory you used:
- 21277 strings out of 467871
- 405342 string characters out of 5418377
- 825419 words of memory out of 5000000
- 49447 multiletter control sequences out of 15000+600000
- 685949 words of font info for 110 fonts, out of 8000000 for 9000
+ 21237 strings out of 467871
+ 396661 string characters out of 5418377
+ 836671 words of memory out of 5000000
+ 49295 multiletter control sequences out of 15000+600000
+ 687051 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,16n,117p,1505b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/courier/ucrr8a.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/courier/ucrro8a.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/helvetic/uhvb8ac.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX
-/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (29 pages, 353621 bytes).
+
+pdfTeX warning (dest): name{_project_tests_8cs} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_ticket_service_8cs} has been referenced but does n
+ot exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_ticket_history_entry_8cs} has been referenced but 
+does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_ticket_exception_8cs} has been referenced but does
+ not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_ticket_8cs} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_technical_ticket_8cs} has been referenced but does
+ not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_menu_service_8cs} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_i_ticket_service_8cs} has been referenced but does
+ not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_i_ticket_repository_8cs} has been referenced but d
+oes not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_in_memory_ticket_repository_8cs} has been referenc
+ed but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_feature_request_ticket_8cs} has been referenced bu
+t does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_client_panel_8cs} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_bug_ticket_8cs} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_admin_panel_8cs} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1
+_ticket_console_printer} has been referenced but does not exist, replaced by a 
+fixed one
+
+
+pdfTeX warning (dest): name{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1
+_input_helper} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{class_ticket_system_1_1_data_seeder_1_1_fake_data_s
+eeder} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{class_ticket_system_1_1_console_u_i_1_1_console_mes
+sages} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{class_ticket_system_1_1_console_u_i_1_1_console_hel
+per} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{namespace_ticket_system_1_1_tests} has been referen
+ced but does not exist, replaced by a fixed one
+
+ <C:\Users\domzo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss10
+00.pk><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/domzo/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/domzo/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/domzo/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/domzo/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/domzo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/domzo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/domzo/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (36 pages, 449398 bytes).
 PDF statistics:
- 1443 PDF objects out of 1728 (max. 8388607)
- 324 named destinations out of 1000 (max. 500000)
- 942 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2013 PDF objects out of 2073 (max. 8388607)
+ 432 named destinations out of 1000 (max. 500000)
+ 1262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

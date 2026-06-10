@@ -1,0 +1,98 @@
+\doxysection{Ticket\+System.\+Console\+UI.\+Helpers.\+Ticket\+Console\+Printer Class Reference}
+\hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer}{}\label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer}\index{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}}
+
+
+Klasa pomocnicza odpowiedzialna za wyświetlanie i obsługę zgłoszeń w konsoli.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_affffd3d4d8ae205717d2ea691106d185}{Show\+Tickets}} (\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}} service)
+\begin{DoxyCompactList}\small\item\em Wyświetla listę wszystkich zgłoszeń w systemie. \end{DoxyCompactList}\item 
+static \doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}} \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_ab9fdd4a98f23169650e0f6a7e2957917}{Select\+Ticket}} (\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}} service)
+\begin{DoxyCompactList}\small\item\em Pozwala użytkownikowi wybrać zgłoszenie na podstawie numeru. \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a1e6526ee136f2397800b52ad8cb2fea1}{Show\+Details}} (\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}} service)
+\begin{DoxyCompactList}\small\item\em Wyświetla szczegóły wybranego zgłoszenia wraz z historią zmian. \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a816162011a2e761c4eb3eecb249ad913}{Change\+Status}} (\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}} service)
+\begin{DoxyCompactList}\small\item\em Umożliwia zmianę statusu zgłoszenia wraz z dodaniem komentarza. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa pomocnicza odpowiedzialna za wyświetlanie i obsługę zgłoszeń w konsoli. 
+
+Zawiera logikę prezentacji danych oraz interakcji użytkownika związanych z wyborem, podglądem i zmianą statusu ticketów.
+
+Klasa stanowi warstwę UI Helper i współpracuje z \doxylink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}. 
+
+\label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_doc-func-members}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a816162011a2e761c4eb3eecb249ad913}\index{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}!ChangeStatus@{ChangeStatus}}
+\index{ChangeStatus@{ChangeStatus}!TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}}
+\doxysubsubsection{\texorpdfstring{ChangeStatus()}{ChangeStatus()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a816162011a2e761c4eb3eecb249ad913} 
+void Ticket\+System.\+Console\+UI.\+Helpers.\+Ticket\+Console\+Printer.\+Change\+Status (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}}}]{service}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Umożliwia zmianę statusu zgłoszenia wraz z dodaniem komentarza. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em service} & Serwis obsługujący zgłoszenia.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_ab9fdd4a98f23169650e0f6a7e2957917}\index{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}!SelectTicket@{SelectTicket}}
+\index{SelectTicket@{SelectTicket}!TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}}
+\doxysubsubsection{\texorpdfstring{SelectTicket()}{SelectTicket()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_ab9fdd4a98f23169650e0f6a7e2957917} 
+\doxymbox{\hyperlink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}} Ticket\+System.\+Console\+UI.\+Helpers.\+Ticket\+Console\+Printer.\+Select\+Ticket (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}}}]{service}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Pozwala użytkownikowi wybrać zgłoszenie na podstawie numeru. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em service} & Serwis obsługujący zgłoszenia.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wybrane zgłoszenie \doxylink{class_ticket_system_1_1_models_1_1_ticket}{Ticket}.
+\end{DoxyReturn}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a1e6526ee136f2397800b52ad8cb2fea1}\index{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}!ShowDetails@{ShowDetails}}
+\index{ShowDetails@{ShowDetails}!TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}}
+\doxysubsubsection{\texorpdfstring{ShowDetails()}{ShowDetails()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_a1e6526ee136f2397800b52ad8cb2fea1} 
+void Ticket\+System.\+Console\+UI.\+Helpers.\+Ticket\+Console\+Printer.\+Show\+Details (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}}}]{service}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Wyświetla szczegóły wybranego zgłoszenia wraz z historią zmian. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em service} & Serwis obsługujący zgłoszenia.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_affffd3d4d8ae205717d2ea691106d185}\index{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}!ShowTickets@{ShowTickets}}
+\index{ShowTickets@{ShowTickets}!TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter@{TicketSystem.ConsoleUI.Helpers.TicketConsolePrinter}}
+\doxysubsubsection{\texorpdfstring{ShowTickets()}{ShowTickets()}}
+{\footnotesize\ttfamily \label{class_ticket_system_1_1_console_u_i_1_1_helpers_1_1_ticket_console_printer_affffd3d4d8ae205717d2ea691106d185} 
+void Ticket\+System.\+Console\+UI.\+Helpers.\+Ticket\+Console\+Printer.\+Show\+Tickets (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_ticket_system_1_1_services_1_1_ticket_service}{Ticket\+Service}}}]{service}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Wyświetla listę wszystkich zgłoszeń w systemie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em service} & Serwis obsługujący zgłoszenia.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Ticket\+System/\+\+Console\+UI/\+\+Helpers/\+\doxymbox{\hyperlink{_ticket_console_printer_8cs}{Ticket\+Console\+Printer.\+cs}}\end{DoxyCompactItemize}

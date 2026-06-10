@@ -1,7 +1,7 @@
 var namespace_ticket_system =
 [
     [ "ConsoleUI", "namespace_ticket_system_1_1_console_u_i.html", "namespace_ticket_system_1_1_console_u_i" ],
-    [ "DataSeeder", "namespace_ticket_system_1_1_data_seeder.html", null ],
+    [ "DataSeeder", "namespace_ticket_system_1_1_data_seeder.html", "namespace_ticket_system_1_1_data_seeder" ],
     [ "Enums", "namespace_ticket_system_1_1_enums.html", [
       [ "TicketPriority", "namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179", [
         [ "Low", "namespace_ticket_system_1_1_enums.html#a2477325d63c91daed873023f7ebd7179a28d0edd045e05cf5af64e35ae0c4c6ef", null ],
@@ -20,5 +20,6 @@ var namespace_ticket_system =
     [ "Interfaces", "namespace_ticket_system_1_1_interfaces.html", "namespace_ticket_system_1_1_interfaces" ],
     [ "Models", "namespace_ticket_system_1_1_models.html", "namespace_ticket_system_1_1_models" ],
     [ "Repositories", "namespace_ticket_system_1_1_repositories.html", "namespace_ticket_system_1_1_repositories" ],
-    [ "Services", "namespace_ticket_system_1_1_services.html", "namespace_ticket_system_1_1_services" ]
+    [ "Services", "namespace_ticket_system_1_1_services.html", "namespace_ticket_system_1_1_services" ],
+    [ "Tests", "namespace_ticket_system_1_1_tests.html", "namespace_ticket_system_1_1_tests" ]
 ];
